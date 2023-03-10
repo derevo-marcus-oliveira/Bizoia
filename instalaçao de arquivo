@@ -1,0 +1,7 @@
+Para se iniciar o projeto é preciso instalar algumas dependencias
+
+1 - npm install
+
+2 - npm install react-router-dom
+
+3 - npm install json-server
