@@ -1,0 +1,42 @@
+{
+    "Itens": [
+        {
+            "id": "0",
+            "name": "Intel",
+            "type": "processador",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "1",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        
+        {
+            "id": "4",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        
+        {
+            "id": "5",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "2",
+            "name": "G-force",
+            "type": "placaVideo",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Kingdon",
+            "type": "memoriaRAM",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        }
+    ]
+}

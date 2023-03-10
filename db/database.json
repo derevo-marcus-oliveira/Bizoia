@@ -1,0 +1,52 @@
+{
+    "Itens" : [
+        {
+            "id": "0",
+            "Nome": "Placa-Mãe ASUS TUF Gaming",
+            "Descricao": "Placa com um dos melhores custo benefícios de todo o mercado brasileiro, barata, com muitos recursos e boa quantidade de VRM para uma placa de entrada e também de boa qualidade",
+            "Marca": "ASUS",
+            "SOqueteCPU": "LGA 1151",
+            "TecnologiaMemoriaRAM": "DDR4",
+            "TipoChipset": "Intel H310",
+            "VelocidadeClockMemoria": "2666Mhz",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg",
+            "Imagens": [
+                "https://m.media-amazon.com/images/I/91Xi85WgpRL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/71suKgxNUDL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/516GAG9wicL._AC_SX522_.jpg"   
+            ]
+        },
+        {
+            "id": "1",
+            "Nome": "Placa-Mãe ASUS TUF Gaming",
+            "Descricao": "Placa com um dos melhores custo benefícios de todo o mercado brasileiro, barata, com muitos recursos e boa quantidade de VRM para uma placa de entrada e também de boa qualidade",
+            "Marca": "ASUS",
+            "SOqueteCPU": "LGA 1151",
+            "TecnologiaMemoriaRAM": "DDR4",
+            "TipoChipset": "Intel H310",
+            "VelocidadeClockMemoria": "2666Mhz",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg",
+            "Imagens": [
+                "https://m.media-amazon.com/images/I/91Xi85WgpRL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/71suKgxNUDL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/516GAG9wicL._AC_SX522_.jpg"   
+            ]
+        },
+        {
+            "id": "2",
+            "Nome": "Placa-Mãe ASUS TUF Gaming",
+            "Descricao": "Placa com um dos melhores custo benefícios de todo o mercado brasileiro, barata, com muitos recursos e boa quantidade de VRM para uma placa de entrada e também de boa qualidade",
+            "Marca": "ASUS",
+            "SOqueteCPU": "LGA 1151",
+            "TecnologiaMemoriaRAM": "DDR4",
+            "TipoChipset": "Intel H310",
+            "VelocidadeClockMemoria": "2666Mhz",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg",
+            "Imagens": [
+                "https://m.media-amazon.com/images/I/91Xi85WgpRL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/71suKgxNUDL._AC_SX522_.jpg",
+                "https://m.media-amazon.com/images/I/516GAG9wicL._AC_SX522_.jpg"   
+            ]
+        }
+    ]
+}
