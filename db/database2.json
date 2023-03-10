@@ -37,6 +37,30 @@
             "name": "Kingdon",
             "type": "memoriaRAM",
             "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "13",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "12",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "11",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
+        },
+        {
+            "id": "10",
+            "name": "asus",
+            "type": "placaMae",
+            "ImagemPricipal": "https://m.media-amazon.com/images/I/61QJTSD6EaL._AC_SX522_.jpg"
         }
     ]
 }

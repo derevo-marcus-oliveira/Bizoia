@@ -1,0 +1,79 @@
+{
+    "Placa-Mae": [
+        {
+            "id": 1,
+            "tipo": "placa-mae",
+            "nome": "B550M AORUS ELITE",
+            "marca": "Aorus",
+            "modelo": "B550M Aorus Elite",
+            "Expecificacoes" : {
+                "CPU": "AMD Socket AM4, suporte para: processadores AMD Ryzen ™ de 3ª geração / AMD Ryzen ™ de 3ª geração com processadores gráficos Radeon ™",
+                "Chipset": "AMD B550"                
+            }
+        },
+        {
+            "id": 2,
+            "tipo": "placa-mae",
+            "nome": "Asus Prime H510M-A",
+            "marca": "Asus",
+            "modelo": "PRIME H510M-A",
+            "Expecificacoes" : {
+                "CPU": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta",
+                "Chipset": "H510"                
+            }
+        },
+        {
+            "id": 3,
+            "tipo": "placa-mae",
+            "nome": "TCN Intel G41",
+            "marca": "TCN",
+            "modelo": "Intel G41",
+            "Expecificacoes" : {
+                "CPU": "Intel Pentium, Celeron, Core com soquete LGA-775",
+                "Chipset": "Intel G41 Express Chipset"                
+            }
+        },
+        {
+            "id": 4,
+            "tipo": "placa-mae",
+            "nome": "Asus ROG Crosshair X670E Gene",
+            "marca": "Asus",
+            "modelo": "Rog Crosshair X670E Gene",
+            "Expecificacoes" : {
+                "CPU": "AMD Socket AM5 para processadores de desktop AMD Ryzen série 7000",
+                "Chipset": "AMD X670: 1 x slot PCIe 4.0 x1"                
+            }
+        },
+        {
+            "id": 5,
+            "tipo": "placa-mae",
+            "nome": "Asus ROG Strix B550-E Gaming",
+            "marca": "Asus",
+            "modelo": "ROG Strix B550-E Gaming",
+            "Expecificacoes" : {
+                "CPU": "Socket AM4 AMD Ryzen de 3ª Geração",
+                "Chipset": "Processadores AMD B550"                
+            }
+        }        
+    ],
+    "Processador": [
+        {
+            "id": 5,
+            "tipo": "processador",
+            "nome": "AMD Ryzen 5 5600X",
+            "marca": "AMD",
+            "modelo": "100-100000065BOX",
+            "Expecificacoes" : {
+                "CPU": {
+                    "nucleo": 6,
+                    "threads": 12,
+                    "clock": "3.7Ghz",
+                    "clockMaxBoost": "4.6Ghz",
+                    "chacheL2Total": "3MB" ,
+                    "chacheL3Total": "32MB" ,
+                }
+                
+            }
+        }
+    ]
+}

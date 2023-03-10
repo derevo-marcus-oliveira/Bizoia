@@ -1,16 +1,12 @@
-.Itens{
-    display: flex;
-    margin: 15px;
-    position: absolute;
-}
+
 .card {
-    width: 24em;
-    margin: 0 5px;
+    width: auto;
+    margin: 10px 5px;
 }
 
 .card:hover {
-    transition: 0.3s;
-    padding: 2px;
-    box-shadow: -3px 3px 2px #fff;
+    transition: 0.2s;
+    border: 1.52px solid;
+    
     cursor: pointer;
 }

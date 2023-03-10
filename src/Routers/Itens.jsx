@@ -7,17 +7,17 @@ import { useFetcher, useNavigate, useLoaderData  } from "react-router-dom";
 function Itens() {
 
     return (
-        <div className="Itens">
-            {db.Itens.filter((p) => useLoaderData() == p.type).map((item) => (    
-                <div key={item.id} className="card">
-                    <img src={item.ImagemPricipal} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">{item.name}</h5>
-                        <p className="card-text">Descricao</p>
+            <div class="row">
+                {useLoaderData().map((item) => (    
+                    <div key={item.id} className="card col col-4" style={{width:"20rem"}}>
+                        <img src={item.ImagemPricipal} className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">{item.name}</h5>
+                            <p className="card-text">Descricao</p>
+                        </div>
                     </div>
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>
     )
 }
 
