@@ -11,6 +11,7 @@ import Itens from './Routers/Itens';
 import App from './App';
 import DetalheItem from './Routers/DetalheItem';
 import Home from './Routers/Home';
+import enumerador from "../enumerador/enumerador.json"
 
 
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
     action: async () => {         
-      debugger
+      
       let filter = $(".filter").val();
       return redirect("/itens/"+filter);
     },
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home/>,
         action: async () => {         
-          debugger
+          
           let filter = $(".filter").val();
           return redirect("/itens/"+filter);
         }
@@ -44,27 +45,27 @@ const router = createBrowserRouter([
         path: "/itens/:type",
         element: <Itens/>,
         loader: async ({params}) => {
+          debugger
+
+          var tipo = enumerador.tipoProduto.filter((i)=> params.type === i.type)
           
+          params.name = tipo[0].name
+
           await $.ajax({
             url: "http://localhost:3000/Itens",
             method: "GET",
-            success: (respose) => {
-              debugger
-              let filter = [];
-          
-              $.each(respose, (index, item) => {
-                debugger
+            success: (respose) => {              
+              let filter = [];          
+              $.each(respose, (index, item) => {                
                 if(item.type.search(params.type) >= 0){
                   filter.push(item);
                 }
-              })
-              
+              })              
               if(filter.length == 0){
-                params = respose;
+                params.dados = respose;
               }
-              else{
-                
-                params = filter;
+              else{                
+                params.dados = filter;
               }
             }
           })

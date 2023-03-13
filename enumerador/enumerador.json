@@ -1,0 +1,24 @@
+{
+    "tipoProduto": [
+        {
+            "id": 0,
+            "type": "placaMae",
+            "name": "Placa mãe"
+        },
+        {
+            "id": 1,
+            "type": "processador",
+            "name": "Processador"
+        },
+        {
+            "id": 2,
+            "type": "placaVideo",
+            "name": "Placa de video"
+        },
+        {
+            "id": 3,
+            "type": "memoriaRAM",
+            "name": "Mémoria RAM"
+        }
+    ]
+}

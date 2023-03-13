@@ -1,7 +1,10 @@
 import { Form, Link } from "react-router-dom";
+import enumerador from "../../enumerador/enumerador.json"
 
 
 function Cabecalho() {
+    debugger
+    enumerador
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary bg-primary" data-bs-theme="dark">
@@ -18,9 +21,12 @@ function Cabecalho() {
                                     Categorias
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to={"itens/placaMae"}>Placa mãe</Link></li>
-                                    <li><Link className="dropdown-item" to={"itens/processador"}>Processador</Link></li>
-                                    <li><Link className="dropdown-item" to={"itens/memoriaRAM"}>Memória RAM</Link></li>
+                                    {enumerador.tipoProduto.map((p) => (
+
+                                        <li key={p.id}><Link className="dropdown-item" to={"itens/"+p.type}>{p.name}</Link></li>
+                                    ))}
+                                    {/* <li><Link className="dropdown-item" to={"itens/processador"}>Processador</Link></li>
+                                    <li><Link className="dropdown-item" to={"itens/memoriaRAM"}>Memória RAM</Link></li> */}
                                 </ul>
                             </li>                          
                         </ul>
