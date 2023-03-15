@@ -1,0 +1,45 @@
+{
+    "Itens": [
+        {
+            "id": 0,
+            "name": "Primeiro",
+            "type": "placa-mae"
+        },
+        {
+            "id": 1,
+            "name": "Segundo",
+            "type": "placa-video"
+        },
+        {
+            "id": 2,
+            "name": "Terceiro",
+            "type": "processador"
+        },
+        {
+            "id": 3,
+            "name": "Quarto",
+            "type": "memoria-ram"
+        },
+        {
+            "id": 4,
+            "name": "Quinto",
+            "type": "placa-mae"
+        },
+        {
+            "id": 5,
+            "name": "Sexto",
+            "type": "placa-mae"
+        },
+        {
+            "id": 6,
+            "name": "Setimo",
+            "type": "placa-mae"
+        },
+        {
+            "id": 7,
+            "name": "Oitavo",
+            "type": "placa-mae"
+        }
+        
+    ]
+}

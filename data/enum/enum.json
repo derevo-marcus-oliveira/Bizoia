@@ -1,0 +1,24 @@
+{
+    "Routers": [
+        {
+            "id": 0,
+            "name": "Placa mãe",
+            "name-router": "placa-mae"
+        },
+        {
+            "id": 1,
+            "name": "Placa de video",
+            "name-router": "placa-video"
+        },
+        {
+            "id": 2,
+            "name": "Processador",
+            "name-router": "processador"
+        },
+        {
+            "id": 3,
+            "name": "Memória RAM",
+            "name-router": "memoria-ram"
+        }
+    ]
+}
