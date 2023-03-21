@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "data": "json-server --watch data/db/db.json",
     "build": "vite build",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "bootstrap-icons": "^1.10.3",
