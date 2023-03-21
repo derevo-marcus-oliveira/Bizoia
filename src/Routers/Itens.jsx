@@ -9,7 +9,8 @@ function Itens() {
 
 
     return (
-        <>
+        <div className="container">
+    
             <div className="row">
                 <div className="p-5 text-center">
                     {/* Posso Escrever algo */}
@@ -18,6 +19,7 @@ function Itens() {
                     <h5>Pesquisa: <span>{arr.type}</span></h5>
                 </div>
                 <div className=" p-2 col-2 text-end">
+                {/* <button onClick={() => { ($(".offcanvas-backdrop").length > 1) ? $(".offcanvas-backdrop")[0].remove() : true }} className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> */}
                     <Buttons.Secondary>
                         <i className="bi bi-filter-circle"></i> Filtro  
                     </Buttons.Secondary>
@@ -34,7 +36,7 @@ function Itens() {
                     </div>
                 )}
             </div>
-        </>
+        </div>
     )
 }
 

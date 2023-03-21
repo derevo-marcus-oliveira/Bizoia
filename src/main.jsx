@@ -8,16 +8,24 @@ import Root from './Routers/Root';
 
 // Arquivos / Componentes
 import Itens from './Routers/Itens';
+import Home from './Routers/Home';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
-    action: () => {       
-      return redirect("/categoria/"+$("#search").val())
-    },
+    
     children: [
+      {
+        path: "/",
+        element: <Home/>,
+        errorElement: <h1>ERRO</h1>,
+        action: () => {    
+          debugger   
+          return redirect("/categoria/"+$("#search").val())
+        },
+      },
       {
         path: "categoria/:type",
         element: <Itens/>,

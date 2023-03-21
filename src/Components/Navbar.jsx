@@ -34,10 +34,6 @@ function Navbar() {
                                 </ul>
                             </li>
                         </ul>
-                        <Form className="d-flex" method="post">
-                            <input id="search" className="form-control me-2" type="search" placeholder="Search" aria-label="Search" required/>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </Form>
                     </div>
                 </div>
             </nav>

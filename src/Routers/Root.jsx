@@ -7,15 +7,9 @@ function Root () {
     return(
         <>
             <Navbar/>
-                {window.location.pathname != "/" ? (
-                <div className="container">
-                    <Outlet/>
-                </div>
-                ) : (
-                    <>
-                        <Home/>
-                    </>
-                )}
+            <Outlet/>
+            <div className="container">
+            </div>
                 
         </>
     )
