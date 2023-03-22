@@ -1,12 +1,12 @@
-import { Form, Link, redirect  } from "react-router-dom";
+import { Form, Link, redirect } from "react-router-dom";
 
 import e from "../../data/enum/enum.json"
 
 
 function Navbar() {
-    
-    document.addEventListener("click", (item)=> {        
-        if($(item.target).parents(".navbar").length == 0){
+
+    document.addEventListener("click", (item) => {
+        if ($(item.target).parents(".navbar").length == 0) {
             $(".navbar-collapse").removeClass("show");
         }
     });
@@ -20,7 +20,7 @@ function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">                            
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Categoria
@@ -28,12 +28,18 @@ function Navbar() {
                                 <ul className="dropdown-menu">
                                     {e.Routers.map((p) => (
                                         <li key={p.id}>
-                                            <Link className="dropdown-item" to={"categoria/"+p["name-router"]}>{p.name}</Link>
+                                            <Link className="dropdown-item" to={"categoria/" + p["name-router"]}>{p.name}</Link>
                                         </li>
                                     ))}
                                 </ul>
                             </li>
                         </ul>
+                        <Form className="d-flex" method="post">
+                            <input type="text" id="search" required className="form-control" aria-label="Search" placeholder="Search" />
+                            <button className="btn btn-outline-success" type="submit">
+                                <i className="bi bi-search"></i>
+                            </button>
+                        </Form>
                     </div>
                 </div>
             </nav>

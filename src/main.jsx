@@ -9,6 +9,7 @@ import Root from './Routers/Root';
 // Arquivos / Componentes
 import Itens from './Routers/Itens';
 import Home from './Routers/Home';
+import './index.css';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
             url: "http://localhost:3000/Itens",
             method: "GET",
             success: (response) => {
+              debugger
               if(response.filter((p) => p.type == params.type).length != 0){
                 params.data = response.filter((p) => p.type == params.type);
               }
@@ -54,6 +56,9 @@ const router = createBrowserRouter([
                   // else if(p.model.search(re) != -1){
                     //data.push(p);
                   // }
+                  else{
+                    params.data = []
+                  }
                 })
               }
             }
