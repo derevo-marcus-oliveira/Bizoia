@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         element: <Home/>,
         errorElement: <h1>ERRO</h1>,
         action: () => {    
-          debugger   
+             
           return redirect("/categoria/"+$("#search").val())
         },
       },
@@ -31,24 +31,24 @@ const router = createBrowserRouter([
         path: "categoria/:type",
         element: <Itens/>,
         errorElement: <h1>ERRO</h1>,
-        loader: async ({params}) => {      
-             
+        loader: async ({params}) => {  
           await $.ajax({
             url: "http://localhost:3000/Itens",
             method: "GET",
-            success: (response) => {
-              debugger
+            success: (response) => {              
+              params.data = []
               if(response.filter((p) => p.type == params.type).length != 0){
-                params.data = response.filter((p) => p.type == params.type);
+                params.data.push(response.filter((p) => p.type == params.type));
               }
               else {
                 response.map((p) => { 
+                  debugger
                   var re = new RegExp(params.type, 'i')
                   if(p.type.search(re) != -1){
-                    params.data == undefined ? params.data = [p] : params.data.push(p);
+                    params.data.push(p);
                   }
                   else if(p.name.search(re) != -1){
-                    params.data == undefined ? params.data = [p] : params.data.push(p);
+                    params.data.push(p);
                   }
                   // else if(p.brand.search(re) != -1){
                     //data.push(p);
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
                   // else if(p.model.search(re) != -1){
                     //data.push(p);
                   // }
-                  else{
+                  else if(params.data.length <= 0){
                     params.data = []
                   }
                 })

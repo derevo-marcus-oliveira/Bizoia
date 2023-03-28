@@ -1,3 +1,47 @@
+
 .home .btn-search i {
     font-size: 1.4em;
+}
+
+.card {    
+    margin: 10px 0;
+}
+
+.card:hover {
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.a {
+    height: 395px;
+}
+
+.b {
+    height: 800px;
+}
+
+#carouselExampleInterval {
+    margin: 6px;
+}
+
+#carouselExampleInterval img{
+    height: 785px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+    background-color: black;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+
+.qualquer {
+    background-color: rgb(136, 136, 136);
+    box-shadow: 0 0 0 0.5px black;
+    width: 100%;
+    height: 97%;
+    border-radius: 20px;
+    margin: 6px 0 ;
 }

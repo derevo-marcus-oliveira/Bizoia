@@ -27,7 +27,7 @@ function Itens() {
                         </button>
                     </div>
                     
-                    <Offcanvas>
+                    <Offcanvas type={arr.type}>
                         <div className="form-check form-switch">
                             <input className="form-check-input" type="checkbox" role="switch" id="compabilidadeAMD" />
                             <label className="form-check-label" htmlFor="compabilidadeAMD">Compatibilidade AMD</label>

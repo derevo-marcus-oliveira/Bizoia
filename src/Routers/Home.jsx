@@ -2,46 +2,71 @@ import { Form } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="container-fluid  home">
+        <div className="container">
+            
             <div className="row">
-                <div className="col col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4" style={{ padding: "60px 0" }}>
-                    {/* <i className="bi bi-airplane"></i> */}
-                    
+                <div className="p-3 text-center">
+                    {/* Posso Escrever algo */}
                 </div>
-                <div className="col col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4" style={{ padding: "60px 0" }}>
-
-                </div>
-                <div className="col col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4" style={{ padding: "60px 0" }}>
+            </div>
+            <div className="row">
+                <div className="b col-8">
+                    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                    </div>
+                <div className="b col-4">
                     {/* <i className="bi bi-alarm"></i> */}
+                    <div className="qualquer"></div>
+                </div>
+            </div>        
+            <div className="row">
+                <div className="p-5 text-center">
+                    {/* Posso Escrever algo */}
                 </div>
             </div>
             <div className="row ">
-                <div className="col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3" style={{ padding: "40px 0" }}>
-                    {/* <i className="bi bi-android"></i> */}
+                <div className="b col-6 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
                 </div>
-                
-                <div className="col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 " style={{ padding: "40px 0" }}>
-                        <div className="col-12 text-center" style={{ padding: "122px 0" }}>
-                            <h1>Pesquise e Compare</h1>
-                        </div>           
-
-                        
-                        
-                </div>
-
-                <div className="col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3" style={{ padding: "40px 0" }}>
-                    {/* <i className="bi bi-arrow-clockwise"></i> */}
-                </div>
-            </div>
+                <div className="a col-6 ">
+                    {/* <i className="bi bi-airplane"></i> */} 
+                    <div className="qualquer"></div>     
+                    <div className="row ">
+               
+                        <div className="a col-6">
+                            {/* <i className="bi bi-alarm"></i> */}
+                            <div className="qualquer"></div>      
+                        </div>
+                        <div className="a col-6">
+                            {/* <i className="bi bi-alarm"></i> */}
+                            <div className="qualquer"></div>      
+                        </div>    
+                    </div>                               
+                </div> 
+            </div>                   
             <div className="row">
-                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12" style={{ padding: "60px 0" }}>
-                    {/* <i className="bi bi-arrow-through-heart"></i> */}
-                </div>
-                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12" style={{ padding: "60px 0" }}>
-                    {/* <i className="bi bi-balloon"></i> */}
-                </div>
-                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12" style={{ padding: "60px 0" }}>
-                    {/* <i className="bi bi-bell-slash"></i> */}
+                <div className="p-5 text-center">
+                    {/* Posso Escrever algo */}
                 </div>
             </div>
         </div>

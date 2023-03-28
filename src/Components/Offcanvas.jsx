@@ -1,5 +1,5 @@
 
-function Offcanvas({children}) {
+function Offcanvas({children, type}) {
     return (
         <div className="offcanvas offcanvas-end bg-dark-subtle" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" >
             <div className="offcanvas-header">
