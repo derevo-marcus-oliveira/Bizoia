@@ -10,7 +10,7 @@ function Card({ props }) {
                 <p className="card-text">{props.name}</p>
             </div>
         </div>  
-        
+             
     )
 }
 

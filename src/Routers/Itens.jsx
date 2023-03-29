@@ -27,20 +27,7 @@ function Itens() {
                         </button>
                     </div>
                     
-                    <Offcanvas type={arr.type}>
-                        <div className="form-check form-switch">
-                            <input className="form-check-input" type="checkbox" role="switch" id="compabilidadeAMD" />
-                            <label className="form-check-label" htmlFor="compabilidadeAMD">Compatibilidade AMD</label>
-                        </div>
-                        <div className="form-check form-switch">
-                            <input className="form-check-input" type="checkbox" role="switch" id="compabilidadeIntel" />
-                            <label className="form-check-label" htmlFor="compabilidadeIntel">Compatibilidade Intel</label>
-                        </div>
-                        <div>
-                            <label htmlFor="customRange1" className="form-label">Preço de</label>
-                            <input type="range" className="form-range" min={"1"} max={"100"} id="customRange1"/>
-                        </div>
-                    </Offcanvas>
+                    <Offcanvas type={arr.type}/>
                 </div>
             </div>
             <div className="row">

@@ -35,14 +35,13 @@ const router = createBrowserRouter([
           await $.ajax({
             url: "http://localhost:3000/Itens",
             method: "GET",
-            success: (response) => {              
-              params.data = []
+            success: (response) => {   
+              params.data = [];
               if(response.filter((p) => p.type == params.type).length != 0){
-                params.data.push(response.filter((p) => p.type == params.type));
+                params.data = response.filter((p) => p.type == params.type);
               }
-              else {
-                response.map((p) => { 
-                  debugger
+              else {                 
+                response.map((p) => {                   
                   var re = new RegExp(params.type, 'i')
                   if(p.type.search(re) != -1){
                     params.data.push(p);

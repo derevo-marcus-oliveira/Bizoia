@@ -21,19 +21,21 @@
 }
 
 #carouselExampleInterval {
-    margin: 6px;
+    margin: 6px; 
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 98%;
+    border-radius: 20px;
+}
+
+.carousel-item {
+    height: 100%;
 }
 
 #carouselExampleInterval img{
-    height: 785px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon  {
-    background-color: black;
-}
-
-.carousel-inner{
-    border-radius: 20px;
+    height: 100%;
 }
 
 
@@ -41,7 +43,69 @@
     background-color: rgb(136, 136, 136);
     box-shadow: 0 0 0 0.5px black;
     width: 100%;
-    height: 97%;
+    height: 98%;
     border-radius: 20px;
     margin: 6px 0 ;
+}
+
+@media only screen and (min-width: 540px) {
+    .view-G {
+        height: 440px;
+
+    } 
+    .view-M {
+        height: 215px;
+
+    }
+    .view-P {
+        height: 100px;
+    }  
+} 
+@media only screen and (min-width: 720px) {
+    .view-G {
+        height: 530px;
+    } 
+    .view-M {
+        height: 260px;
+    }
+    .view-P {
+        height: 122.5px;
+    }  
+}
+@media only screen and (min-width: 960px) {
+    .view-G {
+        height: 620px;
+
+    } 
+    .view-M {
+        height: 305px;
+
+    }
+    .view-P {
+        height: 145px;
+    }  
+}  
+@media only screen and (min-width: 1140px) {
+    .view-G {
+        height: 710px;
+    } 
+    .view-M {
+        height: 350px;
+
+    }
+    .view-P {
+        height: 167.5px;
+
+    }  
+}  
+@media only screen and (min-width: 1320px) {
+    .view-G {
+        height: 800px;
+    } 
+    .view-M {
+        height: 395px;
+    }
+    .view-P {
+        height: 190px;
+    }  
 }

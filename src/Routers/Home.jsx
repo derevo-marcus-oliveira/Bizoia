@@ -1,4 +1,5 @@
 import { Form } from "react-router-dom";
+import Carousel from "../Components/Carousel";
 
 function Home() {
     return (
@@ -10,30 +11,10 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                <div className="b col-8">
-                    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg" class="d-block w-100" alt="..."/>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    </div>
-                <div className="b col-4">
+                <div className="view-G col-8">
+                    <Carousel id={"view1"}/>  
+                </div>  
+                <div className="view-G col-4">
                     {/* <i className="bi bi-alarm"></i> */}
                     <div className="qualquer"></div>
                 </div>
@@ -44,20 +25,20 @@ function Home() {
                 </div>
             </div>
             <div className="row ">
-                <div className="b col-6 ">
+                <div className="view-G col-6 ">
                     {/* <i className="bi bi-airplane"></i> */}
                     <div className="qualquer"></div>                   
                 </div>
-                <div className="a col-6 ">
+                <div className="view-M col-6 ">
                     {/* <i className="bi bi-airplane"></i> */} 
                     <div className="qualquer"></div>     
-                    <div className="row ">
                
-                        <div className="a col-6">
+                    <div className="row ">
+                        <div className="view-M col-6">
                             {/* <i className="bi bi-alarm"></i> */}
-                            <div className="qualquer"></div>      
+                            <Carousel id={"view2"}/>  
                         </div>
-                        <div className="a col-6">
+                        <div className="view-M col-6">
                             {/* <i className="bi bi-alarm"></i> */}
                             <div className="qualquer"></div>      
                         </div>    
@@ -69,6 +50,87 @@ function Home() {
                     {/* Posso Escrever algo */}
                 </div>
             </div>
+            <div className="row ">
+                <div className="view-M col-3 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                <div className="view-M col-3 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                <div className="view-M col-3 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                <div className="view-M col-3 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                
+            </div>                   
+            <div className="row">
+                <div className="p-5 text-center">
+                    {/* Posso Escrever algo */}
+                </div>
+            </div>
+            <div className="row ">
+                <div className="view-M col-6 ">
+                    {/* <i className="bi bi-airplane"></i> */} 
+                    <div className="row ">              
+                        <div className="view-M col-6 ">
+                            {/* <i className="bi bi-airplane"></i> */}
+                            <div className="qualquer"></div>                   
+                        </div>
+                        <div className="view-M col-6 ">
+                            {/* <i className="bi bi-airplane"></i> */}
+                            <div className="qualquer"></div>                   
+                        </div>
+                    </div>
+                </div>
+                <div className="view-M col-6 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                <div className="view-M col-3 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>                   
+                </div>
+                <div className="view-M col-3 ">
+                    <div className="view-P col-12 ">
+                        {/* <i className="bi bi-airplane"></i> */}
+                        <div className="qualquer"></div>                   
+                    </div>
+                    <div className="view-P col-12 ">
+                        {/* <i className="bi bi-airplane"></i> */}
+                        <div className="qualquer"></div>                   
+                    </div>               
+                </div>
+                
+                <div className="view-P col-6 ">
+                    {/* <i className="bi bi-airplane"></i> */}
+                    <div className="qualquer"></div>     
+                    <div className="row">
+                        <div className="view-P col-6 ">
+                            {/* <i className="bi bi-airplane"></i> */}
+                            <Carousel id={"view3"}/>               
+                        </div>
+                        <div className="view-P col-6 ">
+                            {/* <i className="bi bi-airplane"></i> */}
+                            <div className="qualquer"></div>                   
+                        </div>       
+                    </div>              
+                </div>                          
+                
+                          
+                
+            </div>                   
+            <div className="row">
+                <div className="p-5 text-center">
+                    {/* Posso Escrever algo */}
+                </div>
+            </div>
+            
         </div>
     )
 }
