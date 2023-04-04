@@ -5,9 +5,7 @@ import Card from '../Components/Card';
 import Offcanvas from '../Components/Offcanvas';
 
 function Itens() {
-
     const arr = useLoaderData();
-
 
     return (
         <div className="container">
@@ -27,11 +25,11 @@ function Itens() {
                         </button>
                     </div>
                     
-                    <Offcanvas type={arr.type}/>
+                    <Offcanvas type={arr.type} dados={arr.Dados}/>
                 </div>
             </div>
             <div className="row">
-                {(arr.data.length > 0) ? arr.data.map((d) => (
+                {(arr.Dados.length > 0) ? arr.Dados.map((d) => (
                     <div key={d.id} className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
                         <Card props={d} />
                     </div>

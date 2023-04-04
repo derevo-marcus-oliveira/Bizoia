@@ -2,12 +2,15 @@
 
 function Buttons() {
     
-    const Primary = () => {
+    const Primary = ({children, methods, interation}) => {
+        
         return (
-            <button type="button" className="btn btn-primary"></button>
+            <button type="button" className="btn btn-primary" data-bs-dismiss={interation} onClick={methods}>
+                {children}
+            </button>
         )
     }; 
-    const Secondary = ({children}) => {
+    const Secondary = ({children, methods}) => {
         return (
             <button type="button" className="btn btn-secondary">
                 {children}
