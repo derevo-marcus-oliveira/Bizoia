@@ -38,6 +38,9 @@
     height: 100%;
 }
 
+.progress{
+    margin: 5px 0;
+}
 
 .qualquer {
     background-color: rgb(136, 136, 136);
