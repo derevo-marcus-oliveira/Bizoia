@@ -50,25 +50,26 @@ const router = createBrowserRouter([
             url: "http://localhost:3000/Itens",
             method: "GET",
             success: (response) => {   
+              
               params.Dados = [];
-              if(response.filter((p) => p.type == params.type).length != 0){
-                params.Dados = response.filter((p) => p.type == params.type);
+              if(response.filter((p) => p.tipo == params.type).length != 0){
+                params.Dados = response.filter((p) => p.tipo == params.type);
               }
               else {                 
                 response.map((p) => {                   
                   var re = new RegExp(params.type, 'i')
-                  if(p.type.search(re) != -1){
+                  if(p.tipo.search(re) != -1){
                     params.Dados.push(p);
                   }
-                  else if(p.name.search(re) != -1){
+                  else if(p.nome.search(re) != -1){
                     params.Dados.push(p);
                   }
-                  // else if(p.brand.search(re) != -1){
-                    //data.push(p);
-                  // }
-                  // else if(p.model.search(re) != -1){
-                    //data.push(p);
-                  // }
+                  else if(p.marca.search(re) != -1){
+                    data.push(p);
+                  }
+                  else if(p.modelo.search(re) != -1){
+                    data.push(p);
+                  }
                   else if(params.Dados.length <= 0){
                     params.Dados = []
                   }
@@ -76,6 +77,7 @@ const router = createBrowserRouter([
               }
             }
           });
+          
           return params;
         }
       },

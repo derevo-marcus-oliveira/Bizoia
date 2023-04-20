@@ -6,7 +6,7 @@ import Offcanvas from '../Components/Offcanvas';
 
 function Itens() {
     const arr = useLoaderData();
-
+    
     return (
         <div className="container">
 
@@ -25,12 +25,12 @@ function Itens() {
                         </button>
                     </div>
                     
-                    <Offcanvas type={arr.type} dados={arr.Dados}/>
+                    <Offcanvas type={arr.tipo} dados={arr.Dados}/>
                 </div>
             </div>
             <div className="row">
                 {(arr.Dados.length > 0) ? arr.Dados.map((d) => (
-                    <div key={d.id} className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                    <div key={d.id} className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                         <Card props={d} />
                     </div>
                 )) : (

@@ -1,0 +1,1260 @@
+{
+    "Itens": [
+        {
+            "id": 1,
+            "tipo": "placa-mae",
+            "nome": "B550M AORUS ELITE",
+            "marca": "Aorus",
+            "modelo": "B550M Aorus Elite",
+            "Expecificacoes": {
+                "CPU": "AMD Socket AM4, suporte para: processadores AMD Ryzen ™ de 3ª geração / AMD Ryzen ™ de 3ª geração com processadores gráficos Radeon ™",
+                "Chipset": "AMD B550"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ]
+        },
+        {
+            "id": 2,
+            "tipo": "placa-mae",
+            "nome": "Asus Prime H510M-A",
+            "marca": "Asus",
+            "modelo": "PRIME H510M-A",
+            "Expecificacoes": {
+                "CPU": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta",
+                "Chipset": "H510"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ]
+        },
+        {
+            "id": 3,
+            "tipo": "placa-mae",
+            "nome": "TCN Intel G41",
+            "marca": "TCN",
+            "modelo": "Intel G41",
+            "Expecificacoes": {
+                "CPU": "Intel Pentium, Celeron, Core com soquete LGA-775",
+                "Chipset": "Intel G41 Express Chipset"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ]
+        },
+        {
+            "id": 4,
+            "tipo": "placa-mae",
+            "nome": "Asus ROG Crosshair X670E Gene",
+            "marca": "Asus",
+            "modelo": "Rog Crosshair X670E Gene",
+            "Expecificacoes": {
+                "CPU": "AMD Socket AM5 para processadores de desktop AMD Ryzen série 7000",
+                "Chipset": "AMD X670: 1 x slot PCIe 4.0 x1"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ]     
+        },
+        {
+            "id": 5,
+            "tipo": "placa-mae",
+            "nome": "Asus ROG Strix B550-E Gaming",
+            "marca": "Asus",
+            "modelo": "ROG Strix B550-E Gaming",
+            "Expecificacoes": {
+                "CPU": "Socket AM4 AMD Ryzen de 3ª Geração",
+                "Chipset": "Processadores AMD B550"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 6,
+            "tipo": "processador",
+            "nome": "AMD Ryzen 5 5600X",
+            "marca": "AMD",
+            "modelo": "100-100000065BOX",
+            "Expecificacoes": {
+                "nucleo": 6,
+                "threads": 12,
+                "clock": "3.7Ghz",
+                "overclock": "4.6Ghz",
+                "chacheTotal": "35MB",
+                "Soquete": "AM4",
+                "TDP": "65W",
+                "chipGrafico": null,
+                "memoria": {
+                    "tipo": "DDR4",
+                    "velocidade": "3200MHz"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 7,
+            "tipo": "processador",
+            "nome": "Intel Core i5-10400",
+            "marca": "Intel",
+            "modelo": "BX8070110400",
+            "Expecificacoes": {
+                "nucleo": 6,
+                "threads": 12,
+                "clock": "2.90GHz",
+                "overclock": "4,30GHz",
+                "chacheTotal": "12MB",
+                "Soquete": "FCLGA1200",
+                "TDP": "65W",
+                "chipGrafico": "Intel UHD Graphics 630",
+                "memoria": {
+                    "tipo": "DDR4",
+                    "velocidade": "2666MHz"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 8,
+            "tipo": "processador",
+            "nome": "AMD Ryzen 9 7950X",
+            "marca": "AMD",
+            "modelo": "Ryzen 9 7950X",
+            "Expecificacoes": {
+                "nucleo": 16,
+                "threads": 32,
+                "clock": "4.5GHz",
+                "overclock": "5.7GHz",
+                "chacheTotal": "81MB",
+                "Soquete": "AM5",
+                "TDP": "170W",
+                "chipGrafico": "Gráficos AMD Radeon",
+                "memoria": {
+                    "tipo": "DDR4",
+                    "velocidade": "2666MHz"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 9,
+            "tipo": "processador",
+            "nome": "Intel Core i9-13900KS",
+            "marca": "Intel",
+            "modelo": "BX8071513900KS",
+            "Expecificacoes": {
+                "nucleo": 24,
+                "threads": 32,
+                "clock": [
+                    "E-Core 2.2GHz",
+                    "P-Core 3.2GHz"
+                ],
+                "overclock": [
+                    "E-Core Max 4.3GHz",
+                    "P-Core Max 5.4GHz",
+                    "Intel Turbo Boost 5.8GHz",
+                    "Intel Thermal 6.0GHz"
+                ],
+                "chacheTotal": "68MB",
+                "Soquete": "LGA 1700",
+                "TDP": [
+                    "Base 150W",
+                    "Turbo 253W"
+                ],
+                "chipGrafico": "Intel UHD Graphics 770",
+                "memoria": {
+                    "tipo": "DDR4 e DDR5",
+                    "velocidade": "3200MHz e 5600MHz"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 10,
+            "tipo": "processador",
+            "nome": "Intel Pentium E2180",
+            "marca": "Intel",
+            "modelo": "Lga 775",
+            "Expecificacoes": {
+                "nucleo": 2,
+                "threads": null,
+                "clock": "2GHz",
+                "overclock": null,
+                "chacheTotal": "1MB",
+                "Soquete": "LGA775",
+                "TDP": "65W",
+                "chipGrafico": null,
+                "memoria": {
+                    "tipo": "DDR1, DDR2 e DDR3",
+                    "velocidade": null
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 11,
+            "tipo": "fonte",
+            "nome": "Fortrek PWS2003",
+            "marca": "Fortrek",
+            "modelo": "62849",
+            "Especificacoes": {
+                "selo": null,
+                "protecao": null,
+                "potência": "200W a 450W",
+                "tensao": "115V/230V",
+                "ventiladores": "1 Cooler 8cm embutido",
+                "Conectores": [
+                    "1 x 20/24 Pinos",
+                    "1 x Auxiliar ATX",
+                    "4 x Alimentação Periféricos",
+                    "1 x Alimentação Driv",
+                    "2 x Serial ATA e 2x IDE"
+                ],
+                "certificacoes": []
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 12,
+            "tipo": "fonte",
+            "nome": "MSI MAG A650BN",
+            "marca": "MSI",
+            "modelo": "306-7ZP2B22-CE0",
+            "Especificacoes": {
+                "selo": "80 Plus Bronze",
+                "protecao": "OCP, OVP, OPP, OTP e SCP",
+                "potência": "650W",
+                "tensao": "Bivolt 100-240 VCA",
+                "ventiladores": "120mm",
+                "Conectores": [
+                    "ATX (Pinos) 1",
+                    "EPS (8 Pinos) 1",
+                    "PCI-E (6+2 Pinos) 2",
+                    "SATA (15 Pinos) 5",
+                    "Molex (4 Pinos) 2",
+                    "FDD (4 Pinos) 1"
+                ],
+                "certificacoes": []
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 13,
+            "tipo": "fonte",
+            "nome": "C3Tech ATX",
+            "marca": "C3Tech",
+            "modelo": "PS-G700M",
+            "Especificacoes": {
+                "selo": "80 PLUS WHITE",
+                "protecao": "SCP, UVP, OVP, OCP e SCP",
+                "potência": "700W",
+                "tensao": "Bivolt Automático AC 115/230V",
+                "ventiladores": "120mm de alta qualidade",
+                "Conectores": [
+                    "1x para placa mãe: ATX 20+4P",
+                    "1x CPU 4+4 Pinos",
+                    "4x IDE",
+                    "4x SATA",
+                    "2x PCIExpress 6+2 Pinos para placa de vídeo"
+                ],
+                "certificacoes": [
+                    "ATX 12V2.3",
+                    "EPS 12V2.9",
+                    "FCC",
+                    "TUV",
+                    "CE",
+                    "RoHS"
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 14,
+            "tipo": "fonte",
+            "nome": "Cooler Master V1000",
+            "marca": "Cooler Master",
+            "modelo": "V1000",
+            "Especificacoes": {
+                "selo": "80 Plus Gold",
+                "protecao": null,
+                "potência": "1000W",
+                "tensao": {
+                    "entrada": "AC 115/230V / 4-8A / 50-60 Hz",
+                    "saida": "+3,3V 15A / +5V 15A / +12V 38.3A / 12V 0,3A / +5Vsb 2.5A"
+                },
+                "ventiladores": "135mm",
+                "Conectores": [
+                    "Main: 112V 4+4pin 2",
+                    "Disquete: 1",
+                    "Molex: 4",
+                    "PCI-E: 6+2Pin 8",
+                    "SATA: 9"
+                ],
+                "certificacoes": []
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 15,
+            "tipo": "fonte",
+            "nome": "EVGA SuperNOVA 1600 G+",
+            "marca": "EVGA",
+            "modelo": "SuperNOVA 1600 G+",
+            "Especificacoes": {
+                "selo": "80 PLUS Gold",
+                "protecao": "OVP, UVP, OCP, OPP, SCP e OTP",
+                "potência": "1600W",
+                "tensao": {
+                    "entrada": "115-240V",
+                    "saida": "3,3V / + 5V / + 12V / -12V / + 5Vsb"
+                },
+                "ventiladores": " Rolamento do Ventilador Rolamento Duplo de Esferas 135mm",
+                "Conectores": [
+                    "24 Pinos ATX: 1x",
+                    "EPS (CPU): 2x 8 Pinos (4 + 4)",
+                    "PCIe: 14x 8 Pinos (6 + 2)",
+                    "SATA: 14x",
+                    "Periférico de Quatro Pinos: 8x",
+                    "Mole: 1x"
+                ],
+                "certificacoes": [
+                    "TUV",
+                    "CB",
+                    "CE",
+                    "FCC",
+                    "RCM",
+                    "cTUVus",
+                    "BSMI",
+                    "CCC",
+                    "WEEE",
+                    " RoHS"
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 16,
+            "tipo": "HD",
+            "nome": "HD Seagate 1TB BarraCuda",
+            "marca": "SEAGATE",
+            "modelo": "ST1000DM010",
+            "Expecificações": {
+                "interface:": "SATA 6Gb/s",
+                "capacidade": "1TB",
+                "RPM": "7200"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 17,
+            "tipo": "HD",
+            "nome": "HD WD Purple Surveillance",
+            "marca": "Western Digital",
+            "modelo": "WD42PURZ",
+            "Expecificações": {
+                "interface:": "SATA 6Gb/s",
+                "capacidade": "4TB",
+                "RPM": "5400RPM"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 18,
+            "tipo": "HD",
+            "nome": "HD Interno Seagate 16TB SkyHawk AI",
+            "marca": "SkyHawk AI",
+            "modelo": "ST16000VE002",
+            "Expecificações": {
+                "interface:": "SATA 6Gb/s",
+                "capacidade": "16TB",
+                "RPM": "7200RPM"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 19,
+            "tipo": "HD",
+            "nome": "HD WD Blue",
+            "marca": "Western Digital",
+            "modelo": "WD10EZEX",
+            "Expecificações": {
+                "interface:": "SATA 6Gb/s",
+                "capacidade": "1TB",
+                "RPM": "7200RPM"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 20,
+            "tipo": "HD",
+            "nome": "HD WD Blue 2TB",
+            "marca": "Western Digital",
+            "modelo": "WD20EZAZ",
+            "Expecificações": {
+                "interface:": "SATA 6Gb/s",
+                "capacidade": "2TB",
+                "RPM": "7200RPM"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 21,
+            "tipo": "gabinete",
+            "nome": "Rise Mode Glass 06X",
+            "marca": "Rise Mode",
+            "modelo": "Gabinete Rise Mode GLASS 06X BLACK – SEM FANS",
+            "Expecificações": {
+                "fonteDeEnergia:": "ATX",
+                "dimensões": "477 x 213 x 495 mm",
+                "CompPlacaMae": [
+                    {
+                        "tipo1": "ATX",
+                        "tipo2": "Micro-ATX",
+                        "tipo3": "Mini-ITX",
+                        "tipo4": " E-ATX"
+                    }
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 22,
+            "tipo": "gabinete",
+            "nome": "Corsair 110R",
+            "marca": "Corsair",
+            "modelo": "CC-9011183-WW",
+            "Expecificações": {
+                "fonteDeEnergia:": "ATX",
+                "dimensões": "477 x 213 x 495 mm",
+                "CompPlacaMae": [
+                    {
+                        "tipo1": "ATX",
+                        "tipo2": "Micro-ATX",
+                        "tipo3": "Mini-ITX"
+                    }
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 23,
+            "tipo": "gabinete",
+            "nome": "Corsair 470T",
+            "marca": "Corsair",
+            "modelo": "CC-9011215-WW",
+            "Expecificações": {
+                "fonteDeEnergia:": "ATX",
+                "dimensões": "477 x 213 x 495 mm",
+                "CompPlacaMae": [
+                    {
+                        "tipo1": "ATX",
+                        "tipo2": "Micro-ATX",
+                        "tipo3": "Mini-ITX",
+                        "tipo4": "E-ATX"
+                    }
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 24,
+            "tipo": "gabinete",
+            "nome": "Rise Mode Galaxy Glass",
+            "marca": "Rise Mode",
+            "modelo": "RM-GA-GG-FW",
+            "Expecificações": {
+                "fonteDeEnergia:": "ATX",
+                "dimensões": "440mm x W 280mm x H 427mm",
+                "CompPlacaMae": [
+                    {
+                        "tipo1": "ATX",
+                        "tipo2": "Micro-ATX",
+                        "tipo3": "Mini-ITX"
+                    }
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 25,
+            "tipo": "gabinete",
+            "nome": "Rise Mode X5 Glass",
+            "marca": "Rise Mode",
+            "modelo": "X5 Glass",
+            "Expecificações": {
+                "fonteDeEnergia:": "ATX",
+                "dimensões": "L 378mm x W 190mm x H 447mm",
+                "CompPlacaMae": [
+                    {
+                        "tipo1": "ATX",
+                        "tipo2": "Micro-ATX"
+                    }
+                ]
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 26,
+            "tipo": "placa-video",
+            "nome": "RTX 4090",
+            "marca": "MSI",
+            "modelo": "ZT-T16620F-10L",
+            "Expecificações": {
+                "Memoria": "6 GB",
+                "recursos": "DirectX 12 nível de recurso da API 12_1",
+                "entradaDeEnergia": "8 pinos"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 27,
+            "tipo": "placa-video",
+            "nome": "GTX 1660 Ti",
+            "marca": "Zotac",
+            "modelo": "90YV0DT2-M0NA00",
+            "Expecificações": {
+                "Memoria": "6 GB",
+                "recursos": "DirectX 12 nível de recurso da API 12_1",
+                "entradaDeEnergia": "8 pinos"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 28,
+            "tipo": "placa-video",
+            "nome": "RX 580",
+            "marca": "PowerColor",
+            "modelo": "AXRX 580 8GBD5-DHD/OC",
+            "Expecificações": {
+                "Memoria": "8 GB",
+                "recursos": "DirectX 12 nível de recurso da API 12_1",
+                "entradaDeEnergia": "8 pinos"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 29,
+            "tipo": "placa-video",
+            "nome": "RTX 3060 Ti",
+            "marca": "Galax",
+            "modelo": "36ISL6MD1VQW",
+            "Expecificações": {
+                "Memoria": "8 GB",
+                "recursos": "DirectX 12 nível de recurso da API 12_1",
+                "entradaDeEnergia": "8 pinos"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 30,
+            "tipo": "placa-video",
+            "nome": "GTX 1660",
+            "marca": "Zotac",
+            "modelo": "ZT-T16620F-10L",
+            "Expecificações": {
+                "Memoria": "8 GB",
+                "recursos": "DirectX 12 nível de recurso da API 12_1",
+                "entradaDeEnergia": "8 pinos"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 31,
+            "tipo": "mouse",
+            "nome": "Razer Deathadder V2 Mini",
+            "marca": "Razer",
+            "modelo": "RZ01-03340100-R3U1",
+            "Expecificações": {
+                "SemFio" : false,
+                "DPI": "8500",
+                "sensor": "óptico de alta precisão",
+                "modoUso": "Com Fio"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 32,
+            "tipo": "mouse",
+            "nome": "Razer Viper Ultimate",
+            "marca": "Razer",
+            "modelo": "RZ01-03050100-R3U1",
+            "Expecificações": {
+                "SemFio" : true,
+                "DPI": "20000",
+                "sensor": "Sensor óptico Focus+",
+                "modoUso": "Com fio e sem fio"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 33,
+            "tipo": "mouse",
+            "nome": "Logitech G305 Hero Lightspeed",
+            "marca": "Logitech",
+            "modelo": "910-005290",
+            "Expecificações": {
+                "SemFio" : true,
+                "DPI": "12000",
+                "sensor": null,
+                "modoUso": "Sem fio LIGHTSPEED Wireles"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 34,
+            "tipo": "mouse",
+            "nome": "Logitech G903 LIGHTSPEED RGB LIGHTSYNC",
+            "marca": "Logitech G",
+            "modelo": "910-005671",
+            "Expecificações": {
+                "SemFio" : true,
+                "DPI": "16000",
+                "sensor": "Sensor Hero 25K",
+                "modoUso": "Receptor sem fio LIGHTSPEED"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 35,
+            "tipo": "cooler",
+            "nome": "Cooler FAN Rise",
+            "marca": "Rise",
+            "modelo": "RM-FN-01-BW",
+            "Especificacoes": {
+                "fluxoDoAr": "50 CFM",
+                "nivelSonoro": "28 dBA",
+                "velocidade": "1500 Rpm",
+                "Conectores": "3 pin ou Molex"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 36,
+            "tipo": "cooler",
+            "nome": "Cooler Fan Rise Mode",
+            "marca": "Rise Mode",
+            "modelo": "RM-BK-01-FB",
+            "Especificacoes": {
+                "fluxoDoAr": "50 CFM",
+                "nivelSonoro": null,
+                "velocidade": "1500 Rpm",
+                "Conectores": "Molex"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 37,
+            "tipo": "cooler",
+            "nome": "Cooler FAN Lian Li",
+            "marca": "Lian Li",
+            "modelo": null,
+            "Especificacoes": {
+                "fluxoDoAr": "64,5 CFM (Máximo)",
+                "nivelSonoro": "7 ~ 28,3 Db",
+                "velocidade": "800 ~ 1900 Rpm",
+                "Conectores": null
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 38,
+            "tipo": "cooler",
+            "nome": "Cooler Fan Rise Mode Black",
+            "marca": "Rise Mode",
+            "modelo": "RM-BK-02-FB",
+            "Especificacoes": {
+                "fluxoDoAr": "50 CFM",
+                "nivelSonoro": "7 ~ 28,3 Db",
+                "velocidade": "1500 RPM",
+                "Conectores": "Molex"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 39,
+            "tipo": "cooler",
+            "nome": "Cooler Fan Rise Smart",
+            "marca": "Rise",
+            "modelo": "RM-FN-02-RGB",
+            "Especificacoes": {
+                "fluxoDoAr": "50 CFM",
+                "nivelSonoro": "25dba (MAX)",
+                "velocidade": "1650 RPM",
+                "Conectores": "padrão 3p 5v"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 40,
+            "tipo": "monitor",
+            "nome": "Monitor Gamer Aorus 48 OLED",
+            "Marca": "Aorus",
+            "modelo": "FO48U",
+            "Especificações": {
+                "polegadas": "47,53 OLED",
+                "resolução": "4K",
+                "taxaDeAtualização": "120htz"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 41,
+            "tipo": "monitor",
+            "nome": "Monitor Gamer Aorus 48 OLED",
+            "Marca": "Aorus",
+            "modelo": "FO48U",
+            "Especificações": {
+                "polegadas": "47,53 OLED",
+                "resolução": "4K",
+                "taxaDeAtualização": "120htz"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 42,
+            "tipo": "teclado",
+            "nome": "Teclado Mecânico Gamer Corsair K70 RGB PRO",
+            "marca": "Corsair",
+            "modelo": "CH-9109410-BR",
+            "Especificações": {
+                "tipo": "Mecânico'",
+                "tecnologia": "CHERRY MX RGB Red",
+                "Contrução": "Alumínio anodizado e escovado preto"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 43,
+            "tipo": "teclado",
+            "nome": "Teclado Mecânico Gamer HyperX Alloy MKW100",
+            "marca": "HyperX",
+            "modelo": "4P5E1AA#ABA",
+            "Especificações": {
+                "tipo": "Mecânico",
+                "tecnologia": "HyperX NGENUITY",
+                "Contrução": "Alumínio"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 44,
+            "tipo": "teclado",
+            "nome": "Multilaser",
+            "marca": "HyperX",
+            "modelo": "TC243",
+            "Especificações": {
+                "tipo": "Mecânico'",
+                "tecnologia": null,
+                "Construção": "Plástisco"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 45,
+            "tipo": "headset",
+            "nome": "Headset Gamer Hyperx Cloud Orbit S",
+            "marca": "Cloud Orbit S",
+            "modelo": "Hyperx",
+            "Especificações": {
+                "tipo": "circumaural, fechado'",
+                "tecnologia": "5.1 e 7.1",
+                "Contrução": "Plástisco"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 46,
+            "tipo": "headset",
+            "nome": "Headset Gamer HyperX Cloud Stinger",
+            "marca": "HyperX",
+            "modelo": "Cloud Stinger",
+            "Especificações": {
+                "tipo": "Transceptor USB sem fio/ analógico de 3,5 mm",
+                "tecnologia": "5.1 e 7.1",
+                "NívelDePressão": "150 dB"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 47,
+            "tipo": "headset",
+            "nome": " Headset Gamer Havit",
+            "marca": "Havit",
+            "modelo": "HV-H2002D",
+            "Especificações": {
+                "tipo": "Transceptor USB sem fio/ analógico de 3,5 mm",
+                "tecnologia": null,
+                "NívelDePressão": "<80 mAX"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 48,
+            "tipo": "headset",
+            "nome": "Headset Bright Office",
+            "marca": "Bright",
+            "modelo": "Office",
+            "Especificações": {
+                "tipo": " Com fio",
+                "tecnologia": null,
+                "NívelDePressão": "100mW"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 49,
+            "tipo": "memoria-ram",
+            "nome": "Delta RGB DDR4",
+            "marca": "T-force",
+            "modelo": "DDR4 288 Pin Non-ECC Unbuffered DIMM",
+            "Expecificações": {
+                "Computador": "Desktop",
+                "Frequencia": {
+                    "frequencia1": "2666 Mhz",
+                    "frequencia2": "3000 Mhz",
+                    "frequencia3": "3200  Mhz",
+                    "frequencia4": "3600  Mhz",
+                    "frequencia5": "4000  Mhz"
+                },
+                "Capacidade": {
+                    "Tamanho1": "8GB",
+                    "Tamanho2": "16GB",
+                    "Tamanho3": "32GB",
+                    "Tamanho4": "64GB"
+                },
+                "Compatibilidade": {
+                    "Intel": "100, 200, 300, 400, X299, X99, X79",
+                    "AMD": "300, 400, 500, X570, X470, X370, A320, E320"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 50,
+            "tipo": "memoria-ram",
+            "nome": "ELITE U-DIMM DDR5 RAM ",
+            "Marca": "TeamGroup",
+            "modelo": "DDR5 288 Pin Non-ECC Unbuffered DIMM",
+            "Expecificações": {
+                "Computador": "Desktop",
+                "Frequencia": {
+                    "frequencia1": "4800 Mhz",
+                    "frequencia2": "5200 Mhz",
+                    "frequencia3": "5600 Mhz",
+                    "frequencia4": "6000 Mhz"
+                },
+                "Capacidade": {
+                    "Tamanho1": "8GB",
+                    "Tamanho2": "16GB",
+                    "Tamanho3": "32GB"
+                },
+                "Compatibilidade": {
+                    "Intel": "600 series, 700 series",
+                    "AMD": "600 series"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 51,
+            "tipo": "memoria-ram",
+            "nome": "Lexar Hades RGB DDR4",
+            "Marca": "Lexar",
+            "modelo": "DDR4 288 Pin Non-ECC Unbuffered DIMM",
+            "Expecificações": {
+                "Computador": "Desktop",
+                "Frequencia": {
+                    "frequencia1": "2400 Mhz",
+                    "frequencia2": "2666 Mhz",
+                    "frequencia3": "3000 Mhz",
+                    "frequencia4": "3200 Mhz",
+                    "frequencia5": "3600 Mhz"
+                },
+                "Capacidade": {
+                    "Tamanho1": "8GB",
+                    "Tamanho2": "16GB",
+                    "Tamanho3": "32GB"
+                },
+                "Latência": {
+                    "2400 Mhz": "CL15-15-15-36",
+                    "2666 Mhz": "CL16-18-18-38",
+                    "3000 Mhz": "CL16-20-20-44",
+                    "3200 Mhz": "CL16-20-20-44",
+                    "3600 Mhz": "CL18-22-22-42"
+                },
+                "Compatibilidade": {
+                    "Intel": "100, 200, 300, 400, X299, X99, X79",
+                    "AMD": "300, 400, 500, X570, X470, X370, A320, E320"
+                }
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 51,
+            "tipo": "ssd",
+            "nome": "L3 EVO SSD (EOL)",
+            "marca": "EOL - End of Life",
+            "modelo": "L3 EVO",
+            "Especificacoes": {
+                "Capacidade/Escritra": {
+                    "120GB": "30TB",
+                    "240GB": "60TB",
+                    "480GB": "120TB",
+                    "960GB": "120TB"
+                },
+                "Inteface": "SATA III"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 53,
+            "tipo": "ssd",
+            "nome": "AX2 SSD",
+            "marca": "Team Group",
+            "modelo": "AX2",
+            "Especificacoes": {
+                "Capacidade/Escritra": {
+                    "256GB ": " 200TBW",
+                    "512GB ": "800TBW",
+                    "1TB ": "120TB",
+                    "2TB": "1600TBW"
+                },
+                "Inteface": "SATA III 6.0 Gb/s"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 54,
+            "tipo": "ssd",
+            "nome": "DARK L3",
+            "marca": "Team Group",
+            "modelo": "ESCURO L3",
+            "Especificacoes": {
+                "Capacidade/Escritra": {
+                    "256GB ": "490/300 MB / s",
+                    "512GB ": "490/460 MB / s",
+                    "1TB ": "490/460 MB / s"
+                },
+                "Inteface": null
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 55,
+            "tipo": "ssd",
+            "nome": "SSD Kignston",
+            "marca": "Team Group",
+            "modelo": "ssd SATA A400",
+            "Especificacoes": {
+                "Capacidade/Escritra": {
+                    "120GB": "até 500MB/s",
+                    "256GB ": "até 500MB/s",
+                    "512GB ": "até 500MB/s",
+                    "1TB ": "até 500MB/s"
+                },
+                "Inteface": "SATA Rev. 3.0 (6Gb/s)"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        },
+        {
+            "id": 56,
+            "tipo": "ssd",
+            "nome": "EX2 SSD",
+            "marca": "Team Group",
+            "modelo": "ssd SATA A400",
+            "Especificacoes": {
+                "Capacidade/Escritra": {
+                    "512GB ": "400TBW",
+                    "1TB ": "800 TBW",
+                    "2TB ": "1.600 TBW"
+                },
+                "Inteface": "SATA III 6Gb / s"
+            },
+            "info" : [
+                ["Geral", 47],
+                ["Memoria", 6],
+                ["Portas", 41] 
+            ] 
+        }
+    ],
+    
+    "Enumeradores": {
+        "TipoProduto": [
+            {
+                "id": 0,
+                "type": "placa-mae",
+                "name": "Placa mãe"
+            },
+            {
+                "id": 1,
+                "type": "placa-video",
+                "name": "Placa de video"
+            },
+            {
+                "id": 2,
+                "type": "processador",
+                "name": "Processador"
+            },
+            {
+                "id": 3,
+                "type": "memoria-ram",
+                "name": "Mémoria RAM"
+            },
+            {
+                "id": 4,
+                "type": "ssd",
+                "name": "SSD"
+            },
+            {
+                "id": 5,
+                "type": "hd",
+                "name": "HD"
+            },
+            {
+                "id": 6,
+                "type": "fonte",
+                "name": "Fonte"
+            },
+            {
+                "id": 7,
+                "type": "cooler",
+                "name": "Cooler"
+            },
+            {
+                "id": 8,
+                "type": "teclado",
+                "name": "Teclado"
+            },
+            {
+                "id": 9,
+                "type": "mouse",
+                "name": "Mouse"
+            },
+            {
+                "id": 10,
+                "type": "gabinete",
+                "name": "Gabinete"
+            },
+            {
+                "id": 11,
+                "type": "monitor",
+                "name": "Monitor"
+            },
+            {
+                "id": 12,
+                "type": "headset",
+                "name": "Headset"
+            }
+        ]
+    }
+}

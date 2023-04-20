@@ -6,7 +6,7 @@
   
   "scripts": {
     "dev": "vite",
-    "data": "json-server --watch data/db/db.json",
+    "data": "json-server --watch data/db/oficialDB.json",
     "build": "vite build",
     "preview": "vite preview"
     
