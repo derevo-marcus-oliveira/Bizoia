@@ -11,9 +11,16 @@
                 "Chipset": "AMD B550"
             },
             "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
+                ["Geral", 80],
+                ["Técnico", 85],
+                ["Custo benefício", 85] 
+            ],
+            "imagens" : [
+                "https://i.ibb.co/R6LFHV3/1.png",
+                "https://i.ibb.co/VgkZMMK/2.png",
+                "https://i.ibb.co/FJBHxby/3.png",
+                "https://i.ibb.co/W0n0gXT/4.png",
+                "https://i.ibb.co/bH3D3c7/5.png"
             ]
         },
         {
@@ -27,9 +34,15 @@
                 "Chipset": "H510"
             },
             "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
+                ["Geral", 75],
+                ["Técnico", 80],
+                ["Custo benefício", 85] 
+            ],
+            "imagens" : [
+                "https://i.ibb.co/1QMQy2c/1.webp",
+                "https://i.ibb.co/K5TG1XB/2.webp",
+                "https://i.ibb.co/QHGhZSb/3.webp",
+                "https://i.ibb.co/svnRQg1/4.webp"
             ]
         },
         {
@@ -43,9 +56,14 @@
                 "Chipset": "Intel G41 Express Chipset"
             },
             "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
+                ["Geral", 40],
+                ["Técnico", 30],
+                ["Custo benefício", 40] 
+            ],
+            "imagens": [
+                "https://i.ibb.co/cDtvxd3/1.jpg",
+                "https://i.ibb.co/sbRjrZp/2.jpg",
+                "https://i.ibb.co/YcVx85h/3.jpg"
             ]
         },
         {
@@ -59,10 +77,18 @@
                 "Chipset": "AMD X670: 1 x slot PCIe 4.0 x1"
             },
             "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ]     
+                ["Geral", 92],
+                ["Técnico", 98],
+                ["Custo benefício", 88] 
+            ],
+            "imagens": [
+                "https://i.ibb.co/DRJz5mL/1.png",
+                "https://i.ibb.co/Vx7bRSR/2.png",
+                "https://i.ibb.co/y8MwpM3/3.png",
+                "https://i.ibb.co/tBdsKwN/4.png",
+                "https://i.ibb.co/q5RPT49/5.png"
+            ]
+
         },
         {
             "id": 5,
@@ -75,10 +101,17 @@
                 "Chipset": "Processadores AMD B550"
             },
             "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+                ["Geral", 85],
+                ["Técnico", 90],
+                ["Custo benefício", 80] 
+            ] ,
+            "imagens" : [
+                "https://i.ibb.co/wdq5Vt1/1.jpg",
+                "https://i.ibb.co/0YRT36J/2.jpg",
+                "https://i.ibb.co/6Hf326W/3.jpg",
+                "https://i.ibb.co/ZG0xB13/4.jpg",
+                "https://i.ibb.co/3yJ1jr4/5.jpg"
+            ]
         },
         {
             "id": 6,

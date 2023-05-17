@@ -16,75 +16,110 @@ import Detalhe from './Routers/Detalhe';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
-    loader: async ({params}) => {
+    element: <Root />,
+    loader: async ({ params }) => {
 
       var dados = "";
 
       await $.ajax({
         url: "http://localhost:3000/Enumeradores",
         method: "GET",
-        success: (response) => {   
+        success: (response) => {
           dados = response;
         }
       });
       return dados;
     },
-    
+
     children: [
       {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
         errorElement: <h1>ERRO</h1>,
-        action: () => {    
-             
-          return redirect("/categoria/"+$("#search").val())
+        action: () => {
+
+          return redirect("/categoria/" + $("#search").val())
         }
       },
       {
         path: "categoria/:type",
-        element: <Itens/>,
+        element: <Itens />,
         errorElement: <h1>ERRO</h1>,
-        loader: async ({params}) => {
+        loader: async ({ params }) => {
           await $.ajax({
             url: "http://localhost:3000/Itens",
             method: "GET",
-            success: (response) => {   
-              
+            success: (response) => {
+
               params.Dados = [];
-              if(response.filter((p) => p.tipo == params.type).length != 0){
+              if (response.filter((p) => p.tipo == params.type).length != 0) {
                 params.Dados = response.filter((p) => p.tipo == params.type);
               }
-              else {                 
-                response.map((p) => {                   
+              else {
+                response.map((p) => {
                   var re = new RegExp(params.type, 'i')
-                  if(p.tipo.search(re) != -1){
+                  if (p.tipo.search(re) != -1) {
                     params.Dados.push(p);
                   }
-                  else if(p.nome.search(re) != -1){
+                  else if (p.nome != null && p.nome.search(re) != -1) {
                     params.Dados.push(p);
                   }
-                  else if(p.marca.search(re) != -1){
+                  else if (p.marca != null && p.marca.search(re) != -1) {
                     data.push(p);
                   }
-                  else if(p.modelo.search(re) != -1){
+                  else if (p.modelo != null && p.modelo.search(re) != -1) {
                     data.push(p);
                   }
-                  else if(params.Dados.length <= 0){
+                  else if (params.Dados.length <= 0) {
                     params.Dados = []
                   }
                 })
               }
             }
           });
-          
+
+
+
           return params;
         }
       },
       {
         path: "categoria/:type/detalhe/:id",
-        element: <Detalhe/>,
+        element: <Detalhe />,
+
         errorElement: <h1>ERRO</h1>,
+        loader: async ( {params} ) => {
+          debugger 
+          
+          params.Dados = [];
+          await $.ajax({
+            url: "http://localhost:3000/Itens",
+            method: "GET",
+            success: (response) => {
+
+              response.map((p) => {
+                var re = new RegExp(params.id, 'i')
+                if (p.tipo.search(re) != -1) {
+                  params.Dados = p;
+                }
+                else if (p.nome != null && p.nome.search(re) != -1) {
+                  params.Dados = p;
+                }
+                else if (p.marca != null && p.marca.search(re) != -1) {
+                  params.Dados = p;
+                }
+                else if (p.modelo != null && p.modelo.search(re) != -1) {
+                  params.Dados = p;
+                }
+                else if (params.Dados.length <= 0) {
+                  params.Dados = {}
+                }
+              })
+
+            }
+          });
+          return params;
+        }
       }
     ]
   },
