@@ -22,7 +22,8 @@ function Detalhe() {
                             <div className="qualquer"></div>
                         </div>
                     </div>
-                    <Accordion />
+                    <h1 class="display-3">Especificações</h1>
+                    <Accordion props={dados}/>
                     <Scrollspy />
                 </div>
             </div>

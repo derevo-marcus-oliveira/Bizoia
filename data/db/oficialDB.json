@@ -6,16 +6,31 @@
             "nome": "B550M AORUS ELITE",
             "marca": "Aorus",
             "modelo": "B550M Aorus Elite",
-            "Expecificacoes": {
-                "CPU": "AMD Socket AM4, suporte para: processadores AMD Ryzen ™ de 3ª geração / AMD Ryzen ™ de 3ª geração com processadores gráficos Radeon ™",
-                "Chipset": "AMD B550"
-            },
-            "info" : [
-                ["Geral", 80],
-                ["Técnico", 85],
-                ["Custo benefício", 85] 
+            "Expecificacoes": [
+                {
+                    "nome": "CPU",
+                    "info": "AMD Socket AM4, suporte para: processadores AMD Ryzen ™ de 3ª geração / AMD Ryzen ™ de 3ª geração com processadores gráficos Radeon ™"
+                },
+                {
+                    "nome": "Chipset",
+                    "info": "AMD B550"
+                }
             ],
-            "imagens" : [
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    95
+                ]
+            ],
+            "imagens": [
                 "https://i.ibb.co/R6LFHV3/1.png",
                 "https://i.ibb.co/VgkZMMK/2.png",
                 "https://i.ibb.co/FJBHxby/3.png",
@@ -29,16 +44,31 @@
             "nome": "Asus Prime H510M-A",
             "marca": "Asus",
             "modelo": "PRIME H510M-A",
-            "Expecificacoes": {
-                "CPU": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta",
-                "Chipset": "H510"
-            },
-            "info" : [
-                ["Geral", 75],
-                ["Técnico", 80],
-                ["Custo benefício", 85] 
+            "Expecificacoes": [
+                {
+                    "nome": "CPU",
+                    "info": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta"
+                },
+                {
+                    "nome": "Chipset",
+                    "info": "H510"
+                }
             ],
-            "imagens" : [
+            "info": [
+                [
+                    "Geral",
+                    70
+                ],
+                [
+                    "Técnico",
+                    75
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
                 "https://i.ibb.co/1QMQy2c/1.webp",
                 "https://i.ibb.co/K5TG1XB/2.webp",
                 "https://i.ibb.co/QHGhZSb/3.webp",
@@ -51,14 +81,29 @@
             "nome": "TCN Intel G41",
             "marca": "TCN",
             "modelo": "Intel G41",
-            "Expecificacoes": {
-                "CPU": "Intel Pentium, Celeron, Core com soquete LGA-775",
-                "Chipset": "Intel G41 Express Chipset"
-            },
-            "info" : [
-                ["Geral", 40],
-                ["Técnico", 30],
-                ["Custo benefício", 40] 
+            "Expecificacoes": [
+                {
+                    "CPU": "Chipset",
+                    "info": "Intel Pentium, Celeron, Core com soquete LGA-775"
+                },
+                {
+                    "nome": "Chipset",
+                    "info": "Intel G41 Express Chipset"
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    60
+                ],
+                [
+                    "Técnico",
+                    70
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
             ],
             "imagens": [
                 "https://i.ibb.co/cDtvxd3/1.jpg",
@@ -72,14 +117,29 @@
             "nome": "Asus ROG Crosshair X670E Gene",
             "marca": "Asus",
             "modelo": "Rog Crosshair X670E Gene",
-            "Expecificacoes": {
-                "CPU": "AMD Socket AM5 para processadores de desktop AMD Ryzen série 7000",
-                "Chipset": "AMD X670: 1 x slot PCIe 4.0 x1"
-            },
-            "info" : [
-                ["Geral", 92],
-                ["Técnico", 98],
-                ["Custo benefício", 88] 
+            "Expecificacoes": [
+                {
+                    "nome": "CPU",
+                    "info": "AMD Socket AM5 para processadores de desktop AMD Ryzen série 7000"
+                },
+                {
+                    "nome": "Chipset",
+                    "info": "AMD X670: 1 x slot PCIe 4.0 x1"
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    90
+                ]
             ],
             "imagens": [
                 "https://i.ibb.co/DRJz5mL/1.png",
@@ -88,7 +148,6 @@
                 "https://i.ibb.co/tBdsKwN/4.png",
                 "https://i.ibb.co/q5RPT49/5.png"
             ]
-
         },
         {
             "id": 5,
@@ -96,16 +155,31 @@
             "nome": "Asus ROG Strix B550-E Gaming",
             "marca": "Asus",
             "modelo": "ROG Strix B550-E Gaming",
-            "Expecificacoes": {
-                "CPU": "Socket AM4 AMD Ryzen de 3ª Geração",
-                "Chipset": "Processadores AMD B550"
-            },
-            "info" : [
-                ["Geral", 85],
-                ["Técnico", 90],
-                ["Custo benefício", 80] 
-            ] ,
-            "imagens" : [
+            "Expecificacoes": [
+                {
+                    "nome": "CPU",
+                    "info": "Socket AM4 AMD Ryzen de 3ª Geração"
+                },
+                {
+                    "nome": "Chipset",
+                    "info": "Processadores AMD B550"
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    95
+                ]
+            ],
+            "imagens": [
                 "https://i.ibb.co/wdq5Vt1/1.jpg",
                 "https://i.ibb.co/0YRT36J/2.jpg",
                 "https://i.ibb.co/6Hf326W/3.jpg",
@@ -119,25 +193,63 @@
             "nome": "AMD Ryzen 5 5600X",
             "marca": "AMD",
             "modelo": "100-100000065BOX",
-            "Expecificacoes": {
-                "nucleo": 6,
-                "threads": 12,
-                "clock": "3.7Ghz",
-                "overclock": "4.6Ghz",
-                "chacheTotal": "35MB",
-                "Soquete": "AM4",
-                "TDP": "65W",
-                "chipGrafico": null,
-                "memoria": {
-                    "tipo": "DDR4",
-                    "velocidade": "3200MHz"
+            "Expecificacoes": [
+                {
+                    "nome": "Núcleo",
+                    "info": "6"
+                },
+                {
+                    "nome": "Threads",
+                    "info": "12"
+                },
+                {
+                    "nome": "Clock",
+                    "info": "3.7Ghz"
+                },
+                {
+                    "nome": "Overclock",
+                    "info": "4.6Ghz"
+                },
+                {
+                    "nome": "Chache Total",
+                    "info": "35MB"
+                },
+                {
+                    "nome": "Soquete",
+                    "info": "AM4"
+                },
+                {
+                    "nome": "TDP",
+                    "info": "65W"
+                },
+                {
+                    "nome": "Chip Gráfico",
+                    "info": null
+                },
+                {
+                    "nome": "Memória RAM DDR4",
+                    "info": "3200MHz"
                 }
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ],
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    95
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/wYKQSxV/1.webp",
+                "https://i.ibb.co/TWWDTqF/2.jpg",
+                "https://i.ibb.co/W08XNLL/3.jpg"
+            ]
         },
         {
             "id": 7,
@@ -145,25 +257,62 @@
             "nome": "Intel Core i5-10400",
             "marca": "Intel",
             "modelo": "BX8070110400",
-            "Expecificacoes": {
-                "nucleo": 6,
-                "threads": 12,
-                "clock": "2.90GHz",
-                "overclock": "4,30GHz",
-                "chacheTotal": "12MB",
-                "Soquete": "FCLGA1200",
-                "TDP": "65W",
-                "chipGrafico": "Intel UHD Graphics 630",
-                "memoria": {
-                    "tipo": "DDR4",
-                    "velocidade": "2666MHz"
+            "Expecificacoes": [
+                {
+                    "nome": "Núcleo",
+                    "info": "6"
+                },
+                {
+                    "nome": "Threads",
+                    "info": "12"
+                },
+                {
+                    "nome": "Clock",
+                    "info": "2.90GHz"
+                },
+                {
+                    "nome": "Overclock",
+                    "info": "4,30GHz"
+                },
+                {
+                    "nome": "Chache Total",
+                    "info": "12MB"
+                },
+                {
+                    "nome": "Soquete",
+                    "info": "FCLGA1200"
+                },
+                {
+                    "nome": "TDP",
+                    "info": "65W"
+                },
+                {
+                    "nome": "Chip Gráfico",
+                    "info": "Intel UHD Graphics 630"
+                },
+                {
+                    "nome": "Memória RAM  DDR4",
+                    "info": "2666MHz"
                 }
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ],
+            "info": [
+                [
+                    "Geral",
+                    75
+                ],
+                [
+                    "Técnico",
+                    80
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/L9HR6gX/1.jpg",
+                "https://i.ibb.co/S0DCqmz/2.jpg"
+            ]
         },
         {
             "id": 8,
@@ -171,25 +320,63 @@
             "nome": "AMD Ryzen 9 7950X",
             "marca": "AMD",
             "modelo": "Ryzen 9 7950X",
-            "Expecificacoes": {
-                "nucleo": 16,
-                "threads": 32,
-                "clock": "4.5GHz",
-                "overclock": "5.7GHz",
-                "chacheTotal": "81MB",
-                "Soquete": "AM5",
-                "TDP": "170W",
-                "chipGrafico": "Gráficos AMD Radeon",
-                "memoria": {
-                    "tipo": "DDR4",
-                    "velocidade": "2666MHz"
+            "Expecificacoes": [
+                {
+                    "nome": "Núcleo",
+                    "info": "16"
+                },
+                {
+                    "nome": "Threads",
+                    "info": "32"
+                },
+                {
+                    "nome": "Clock",
+                    "info": "4.5GHz"
+                },
+                {
+                    "nome": "Overclock",
+                    "info": "5.7GHz"
+                },
+                {
+                    "nome": "Chache Total",
+                    "info": "81MB"
+                },
+                {
+                    "nome": "Soquete",
+                    "info": "AM5"
+                },
+                {
+                    "nome": "TDP",
+                    "info": "170W"
+                },
+                {
+                    "nome": "Chip Gráfico",
+                    "info": "Gráficos AMD Radeon"
+                },
+                {
+                    "nome": "Memória RAM DDR4",
+                    "info": "2666MHz"
                 }
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ],
+            "info": [
+                [
+                    "Geral",
+                    95
+                ],
+                [
+                    "Técnico",
+                    99
+                ],
+                [
+                    "Custo benefício",
+                    90
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/xYwJ6rM/1.jpg",
+                "https://i.ibb.co/9VZqzGf/2.jpg",
+                "https://i.ibb.co/RYLW7Dz/3.jpg"
+            ]
         },
         {
             "id": 9,
@@ -197,36 +384,72 @@
             "nome": "Intel Core i9-13900KS",
             "marca": "Intel",
             "modelo": "BX8071513900KS",
-            "Expecificacoes": {
-                "nucleo": 24,
-                "threads": 32,
-                "clock": [
-                    "E-Core 2.2GHz",
-                    "P-Core 3.2GHz"
-                ],
-                "overclock": [
-                    "E-Core Max 4.3GHz",
-                    "P-Core Max 5.4GHz",
-                    "Intel Turbo Boost 5.8GHz",
-                    "Intel Thermal 6.0GHz"
-                ],
-                "chacheTotal": "68MB",
-                "Soquete": "LGA 1700",
-                "TDP": [
-                    "Base 150W",
-                    "Turbo 253W"
-                ],
-                "chipGrafico": "Intel UHD Graphics 770",
-                "memoria": {
-                    "tipo": "DDR4 e DDR5",
-                    "velocidade": "3200MHz e 5600MHz"
+            "Expecificacoes": [
+                {
+                    "nome": "Núcleo",
+                    "info": "24"
+                },
+                {
+                    "nome": "Threads",
+                    "info": "32"
+                },
+                {
+                    "nome": "Clock",
+                    "info": [
+                        "E-Core 2.2GHz",
+                        "P-Core 3.2GHz"
+                    ]
+                },
+                {
+                    "nome": "Overclock",
+                    "info": [
+                        "E-Core Max 4.3GHz",
+                        "P-Core Max 5.4GHz",
+                        "Intel Turbo Boost 5.8GHz",
+                        "Intel Thermal 6.0GHz"
+                    ]
+                },
+                {
+                    "nome": "Chache Total",
+                    "info": "68MB"
+                },
+                {
+                    "nome": "Soquete",
+                    "info": "AM5"
+                },
+                {
+                    "nome": "TDP",
+                    "info": "170W"
+                },
+                {
+                    "nome": "Chip Gráficos",
+                    "info": "Gráficos AMD Radeon"
+                },
+                {
+                    "nome": "memória ram DDR4",
+                    "info": "2666MHz"
                 }
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ],
+            "info": [
+                [
+                    "Geral",
+                    95
+                ],
+                [
+                    "Técnico",
+                    99
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/0YzBDks/1.jpg",
+                "https://i.ibb.co/7pyHncT/2.jpg",
+                "https://i.ibb.co/9nKWXWk/3.jpg",
+                "https://i.ibb.co/37hBHkM/4.jpg"
+            ]
         },
         {
             "id": 10,
@@ -234,25 +457,63 @@
             "nome": "Intel Pentium E2180",
             "marca": "Intel",
             "modelo": "Lga 775",
-            "Expecificacoes": {
-                "nucleo": 2,
-                "threads": null,
-                "clock": "2GHz",
-                "overclock": null,
-                "chacheTotal": "1MB",
-                "Soquete": "LGA775",
-                "TDP": "65W",
-                "chipGrafico": null,
-                "memoria": {
-                    "tipo": "DDR1, DDR2 e DDR3",
-                    "velocidade": null
+            "Expecificacoes": [
+                {
+                    "nome": "Núcleo",
+                    "info": "2"
+                },
+                {
+                    "nome": "Threads",
+                    "info": null
+                },
+                {
+                    "nome": "Clock",
+                    "info": "2GHz"
+                },
+                {
+                    "nome": "Overclock",
+                    "info": null
+                },
+                {
+                    "nome": "Chache Total",
+                    "info": "1MB"
+                },
+                {
+                    "nome": "Soquete",
+                    "info": "LGA775"
+                },
+                {
+                    "nome": "TDP",
+                    "info": "65W"
+                },
+                {
+                    "nome": "Chip Gráficos ",
+                    "info": null
+                },
+                {
+                    "nome": "Memória ram DDR1, DDR2 e DDR3",
+                    "info": null
                 }
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ], 
+            "info": [
+                [
+                    "Geral",
+                    75
+                ],
+                [
+                    "Técnico",
+                    80
+                ],
+                [
+                    "Custo benefício",
+                    38
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/2Yz6kpq/1.jpg",
+                "https://i.ibb.co/mCPJHYY/2.jpg",
+                "https://i.ibb.co/pwC24zJ/3.jpg"
+            ]
         },
         {
             "id": 11,
@@ -260,26 +521,61 @@
             "nome": "Fortrek PWS2003",
             "marca": "Fortrek",
             "modelo": "62849",
-            "Especificacoes": {
-                "selo": null,
-                "protecao": null,
-                "potência": "200W a 450W",
-                "tensao": "115V/230V",
-                "ventiladores": "1 Cooler 8cm embutido",
-                "Conectores": [
-                    "1 x 20/24 Pinos",
-                    "1 x Auxiliar ATX",
-                    "4 x Alimentação Periféricos",
-                    "1 x Alimentação Driv",
-                    "2 x Serial ATA e 2x IDE"
+            "Especificacoes": [
+                {
+                    "nome": "Selo",
+                    "info": null
+                },
+                {
+                    "nome": "Proteção",
+                    "info": null
+                },
+                {
+                    "nome": "Potência",
+                    "info": "200W a 450W"
+                },
+                {
+                    "nome": "Tensão",
+                    "info": "200W a 450W"
+                },
+                {
+                    "nome": "Ventiladores",
+                    "info": "1 Cooler 8cm embutido"
+                },
+                {
+                    "nome": "Conectores",
+                    "info": [
+                        "1 x 20/24 Pinos",
+                        "1 x Auxiliar ATX",
+                        "4 x Alimentação Periféricos",
+                        "1 x Alimentação Driv",
+                        "2 x Serial ATA e 2x IDE"
+                    ]
+                },
+                {
+                    "nome": "Certificações",
+                    "info":[]
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    80
                 ],
-                "certificacoes": []
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    90
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/tpW7Y5y/1.webp",
+                "https://i.ibb.co/pXx4Qrk/2.webp",
+                "https://i.ibb.co/xYt0Q1s/3.webp"
+            ]
         },
         {
             "id": 12,
@@ -287,27 +583,65 @@
             "nome": "MSI MAG A650BN",
             "marca": "MSI",
             "modelo": "306-7ZP2B22-CE0",
-            "Especificacoes": {
-                "selo": "80 Plus Bronze",
-                "protecao": "OCP, OVP, OPP, OTP e SCP",
-                "potência": "650W",
-                "tensao": "Bivolt 100-240 VCA",
-                "ventiladores": "120mm",
-                "Conectores": [
-                    "ATX (Pinos) 1",
+            "Especificacoes": [
+                {
+                    "nome": "Selo",
+                    "info": "80 Plus Bronze"
+                },
+                {
+                    "nome": "Proteção",
+                    "info": "OCP, OVP, OPP, OTP e SCP"
+                },
+                {
+                    "nome": "Potência",
+                    "info": "650W"
+                },
+                {
+                    "nome": "Tensão",
+                    "info": "Bivolt 100-240 VCA"
+                },
+                {
+                    "nome": "Ventiladores",
+                    "info": "120mm"
+                },
+                {
+                    "nome": "Conectores",
+                    "info": [
+                        "ATX (Pinos) 1",
                     "EPS (8 Pinos) 1",
                     "PCI-E (6+2 Pinos) 2",
                     "SATA (15 Pinos) 5",
                     "Molex (4 Pinos) 2",
                     "FDD (4 Pinos) 1"
+                    ]
+                },
+                {
+                    "nome": "Certificações",
+                    "info":[]
+                }
+            ],
+                
+            "info": [
+                [
+                    "Geral",
+                    74
                 ],
-                "certificacoes": []
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+                [
+                    "Técnico",
+                    84
+                ],
+                [
+                    "Custo benefício",
+                    82
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/k1JJwRd/1.png",
+                "https://i.ibb.co/dfzjjQz/2.png",
+                "https://i.ibb.co/fD9vjfY/3.png",
+                "https://i.ibb.co/QjqWjS7/4.png",
+                "https://i.ibb.co/Dp9JLK9/5.png"
+            ]
         },
         {
             "id": 13,
@@ -315,33 +649,68 @@
             "nome": "C3Tech ATX",
             "marca": "C3Tech",
             "modelo": "PS-G700M",
-            "Especificacoes": {
-                "selo": "80 PLUS WHITE",
-                "protecao": "SCP, UVP, OVP, OCP e SCP",
-                "potência": "700W",
-                "tensao": "Bivolt Automático AC 115/230V",
-                "ventiladores": "120mm de alta qualidade",
-                "Conectores": [
+            "Especificacoes": [
+                {
+                    "nome": "Selo",
+                    "info": "80 PLUS WHITE"
+                },
+                {
+                    "nome": "Proteção",
+                    "info": "SCP, UVP, OVP, OCP e SCP"
+                },
+                {
+                    "nome": "Potência",
+                    "info": "700W"
+                },
+                {
+                    "nome": "Tensão",
+                    "info": "Bivolt Automático AC 115/230V"
+                },
+                {
+                    "nome": "Ventiladores",
+                    "info": "120mm de alta qualidade"
+                },
+                {
+                    "nome": "Conectores",
+                    "info": [
                     "1x para placa mãe: ATX 20+4P",
                     "1x CPU 4+4 Pinos",
                     "4x IDE",
                     "4x SATA",
                     "2x PCIExpress 6+2 Pinos para placa de vídeo"
-                ],
-                "certificacoes": [
+                    ]
+                },
+                {
+                    "nome": "Certificações",
+                    "info":[
                     "ATX 12V2.3",
                     "EPS 12V2.9",
                     "FCC",
                     "TUV",
                     "CE",
-                    "RoHS"
+                    "RoHS"]
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    75
                 ]
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            ],
+            "imagens": [
+                "https://i.ibb.co/BtVLxFP/1.jpg",
+                "https://i.ibb.co/hgyVHSJ/2.jpg",
+                "https://i.ibb.co/KjP78qg/3.jpg",
+                "https://i.ibb.co/C2Jf4k4/4.jpg"
+            ]
         },
         {
             "id": 14,
@@ -349,29 +718,63 @@
             "nome": "Cooler Master V1000",
             "marca": "Cooler Master",
             "modelo": "V1000",
-            "Especificacoes": {
-                "selo": "80 Plus Gold",
-                "protecao": null,
-                "potência": "1000W",
-                "tensao": {
-                    "entrada": "AC 115/230V / 4-8A / 50-60 Hz",
-                    "saida": "+3,3V 15A / +5V 15A / +12V 38.3A / 12V 0,3A / +5Vsb 2.5A"
+            "Especificacoes": [
+                {
+                    "nome": "Selo",
+                    "info": "80 PLUS Gold"
                 },
-                "ventiladores": "135mm",
-                "Conectores": [
-                    "Main: 112V 4+4pin 2",
-                    "Disquete: 1",
-                    "Molex: 4",
-                    "PCI-E: 6+2Pin 8",
-                    "SATA: 9"
+                {
+                    "nome": "Proteção",
+                    "info": "SCP, UVP, OVP, OCP e SCP"
+                },
+                {
+                    "nome": "Potência",
+                    "info": "1000W"
+                },
+                {
+                    "nome": "Tensão",
+                    "info": "AC 115/230V / 4-8A / 50-60 Hz"
+                },
+                {
+                    "nome": "Ventiladores",
+                    "info": "135mm"
+                },
+                {
+                    "nome": "Conectores",
+                    "info": [
+                        "Main: 112V 4+4pin 2",
+                        "Disquete: 1",
+                        "Molex: 4",
+                        "PCI-E: 6+2Pin 8",
+                        "SATA: 9"
+                    ]
+                },
+                {
+                    "nome": "Certificações",
+                    "info":[]
+                }
+            ],
+            "info": [
+                [
+                    "Geral",
+                    85
                 ],
-                "certificacoes": []
-            },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/d0Xq01b/1.png",
+                "https://i.ibb.co/gWZ3nvh/2.png",
+                "https://i.ibb.co/4Rk1WKB/3.png",
+                "https://i.ibb.co/k39ngRK/4.png",
+                "https://i.ibb.co/xJxxjSC/5.png"
+            ]
         },
         {
             "id": 15,
@@ -409,11 +812,27 @@
                     " RoHS"
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/Tq6ZZmX/5.png",
+                "https://i.ibb.co/hR6spg7/3.png",
+                "https://i.ibb.co/w0zf9h4/4.png",
+                "https://i.ibb.co/RYL0Y5m/2.png",
+                "https://i.ibb.co/PgwtRw2/1.png"
+            ]
         },
         {
             "id": 16,
@@ -426,11 +845,25 @@
                 "capacidade": "1TB",
                 "RPM": "7200"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/drpQk67/1.jpg",
+                "https://i.ibb.co/5BCPBNg/2.jpg",
+                "https://i.ibb.co/93PSv5S/3.jpg"
+            ]
         },
         {
             "id": 17,
@@ -443,11 +876,23 @@
                 "capacidade": "4TB",
                 "RPM": "5400RPM"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/189yxhk/1.jpg"
+            ]
         },
         {
             "id": 18,
@@ -460,11 +905,24 @@
                 "capacidade": "16TB",
                 "RPM": "7200RPM"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/SR8F2ym/1.jpg",
+                "https://i.ibb.co/zFdnzQ3/2.jpg"
+            ]
         },
         {
             "id": 19,
@@ -477,11 +935,26 @@
                 "capacidade": "1TB",
                 "RPM": "7200RPM"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/ThRBzy2/1.jpg",
+                "https://i.ibb.co/qk9khBf/2.jpg",
+                "https://i.ibb.co/y69q9FZ/3.jpg",
+                "https://i.ibb.co/DWhrmCv/4.jpg"
+            ]
         },
         {
             "id": 20,
@@ -494,11 +967,25 @@
                 "capacidade": "2TB",
                 "RPM": "7200RPM"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/dGfzH89/1.jpg",
+                "https://i.ibb.co/BsM2j4G/2.jpg",
+                "https://i.ibb.co/wKDbk4d/3.jpg"
+            ]
         },
         {
             "id": 21,
@@ -518,11 +1005,29 @@
                     }
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/TWd43BR/1.jpg",
+                "https://i.ibb.co/1MsMwFn/2.jpg",
+                "https://i.ibb.co/2WmmWS6/3.jpg",
+                "https://i.ibb.co/Xjn8SK0/4.jpg",
+                "https://i.ibb.co/d0HNXFQ/5.jpg",
+                "https://i.ibb.co/5W0Nc5d/6.jpg",
+                "https://i.ibb.co/2Y3XJc1/7.jpg"
+            ]
         },
         {
             "id": 22,
@@ -541,11 +1046,31 @@
                     }
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/LNPFmzx/1.jpg",
+                "https://i.ibb.co/M2TdGFy/2.jpg",
+                "https://i.ibb.co/swQhjdX/3.jpg",
+                "https://i.ibb.co/bmqH1fs/4.jpg",
+                "https://i.ibb.co/3M2ZW9Z/5.jpg",
+                "https://i.ibb.co/TPGPXwt/8.jpg",
+                "https://i.ibb.co/wrRyRtz/9.jpg",
+                "https://i.ibb.co/gShg958/10.jpg",
+                "https://i.ibb.co/WKFgRVt/11.jpg"
+            ]
         },
         {
             "id": 23,
@@ -565,11 +1090,33 @@
                     }
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/6Xj1WLN/1.jpg",
+                "https://i.ibb.co/Hn9J8K6/2.jpg",
+                "https://i.ibb.co/sJfDjsC/3.jpg",
+                "https://i.ibb.co/cNZg8JQ/4.jpg",
+                "https://i.ibb.co/M1KT4ND/5.jpg",
+                "https://i.ibb.co/C04bnrf/6.jpg",
+                "https://i.ibb.co/WGfGM0z/8.jpg",
+                "https://i.ibb.co/bXLXcbW/9.jpg",
+                "https://i.ibb.co/JRpW9d4/10.jpg",
+                "https://i.ibb.co/s1j43xG/11.jpg",
+                "https://i.ibb.co/J56N00g/12.jpg"
+            ]
         },
         {
             "id": 24,
@@ -588,11 +1135,35 @@
                     }
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/Pgv9rcc/13.jpg",
+                "https://i.ibb.co/T0Pgdys/12.jpg",
+                "https://i.ibb.co/bHP5hwg/11.jpg",
+                "https://i.ibb.co/jG2KkDB/9.jpg",
+                "https://i.ibb.co/NyhvqYM/10.jpg",
+                "https://i.ibb.co/hZ6Byms/8.jpg",
+                "https://i.ibb.co/SvrXz9w/7.jpg",
+                "https://i.ibb.co/MRzwsQC/6.jpg",
+                "https://i.ibb.co/ZL6tM3h/5.jpg",
+                "https://i.ibb.co/d7YsYMV/4.jpg",
+                "https://i.ibb.co/6F8nZpG/3.jpg",
+                "https://i.ibb.co/PW9WSbL/1.jpg",
+                "https://i.ibb.co/j6rCS7D/2.jpg"
+            ]
         },
         {
             "id": 25,
@@ -610,11 +1181,30 @@
                     }
                 ]
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/p1pKxfP/10.jpg",
+                "https://i.ibb.co/nwDtKQs/9.jpg",
+                "https://i.ibb.co/D9c8wcX/8.jpg",
+                "https://i.ibb.co/hBMC7L7/5.jpg",
+                "https://i.ibb.co/YjqCPhr/4.jpg",
+                "https://i.ibb.co/12m8dwL/3.jpg",
+                "https://i.ibb.co/SKcfdw7/1.jpg",
+                "https://i.ibb.co/m8jnS1y/2.jpg"
+            ]
         },
         {
             "id": 26,
@@ -627,11 +1217,30 @@
                 "recursos": "DirectX 12 nível de recurso da API 12_1",
                 "entradaDeEnergia": "8 pinos"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    70
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/N1Sh0VD/1.jpg",
+                "https://i.ibb.co/hs30B2j/2.jpg",
+                "https://i.ibb.co/264qGW2/3.jpg",
+                "https://i.ibb.co/m4bFFzS/4.jpg",
+                "https://i.ibb.co/TkcJpkB/5.jpg",
+                "https://i.ibb.co/d65j4yM/6.jpg",
+                "https://i.ibb.co/9p1M1Lg/7.jpg",
+                "https://i.ibb.co/TwwdSn9/8.jpg"
+            ]
         },
         {
             "id": 27,
@@ -644,11 +1253,32 @@
                 "recursos": "DirectX 12 nível de recurso da API 12_1",
                 "entradaDeEnergia": "8 pinos"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    70
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/sWnFR39/1.jpg",
+                "https://i.ibb.co/KVgH7W9/2.jpg",
+                "https://i.ibb.co/3p8zj3T/3.jpg",
+                "https://i.ibb.co/2tWnGkN/4.jpg",
+                "https://i.ibb.co/6yGZ7B9/5.jpg",
+                "https://i.ibb.co/qgb6RKk/6.jpg",
+                "https://i.ibb.co/gwyY8Cv/7.jpg",
+                "https://i.ibb.co/Cz8jJd9/8.jpg",
+                "https://i.ibb.co/c2FyDMT/9.jpg",
+                "https://i.ibb.co/Ln0Qp1X/10.jpg"
+            ]
         },
         {
             "id": 28,
@@ -661,11 +1291,23 @@
                 "recursos": "DirectX 12 nível de recurso da API 12_1",
                 "entradaDeEnergia": "8 pinos"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/7Q4vyK9/1.jpg"
+            ]
         },
         {
             "id": 29,
@@ -678,11 +1320,27 @@
                 "recursos": "DirectX 12 nível de recurso da API 12_1",
                 "entradaDeEnergia": "8 pinos"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/SPgV8r6/1.jpg",
+                "https://i.ibb.co/kXcGySP/2.jpg",
+                "https://i.ibb.co/Tw4D2gc/3.jpg",
+                "https://i.ibb.co/ynC7nZj/4.jpg",
+                "https://i.ibb.co/mNwc1rX/5.jpg"
+            ]
         },
         {
             "id": 30,
@@ -695,11 +1353,27 @@
                 "recursos": "DirectX 12 nível de recurso da API 12_1",
                 "entradaDeEnergia": "8 pinos"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/FhB1Yv8/1.jpg",
+                "https://i.ibb.co/XL94cj1/2.jpg",
+                "https://i.ibb.co/23D2p8Q/3.jpg",
+                "https://i.ibb.co/h1Jk2GX/4.jpg",
+                "https://i.ibb.co/bJTJfxK/5.jpg"
+            ]
         },
         {
             "id": 31,
@@ -708,16 +1382,32 @@
             "marca": "Razer",
             "modelo": "RZ01-03340100-R3U1",
             "Expecificações": {
-                "SemFio" : false,
+                "SemFio": false,
                 "DPI": "8500",
                 "sensor": "óptico de alta precisão",
                 "modoUso": "Com Fio"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/rvRHKS2/1.jpg",
+                "https://i.ibb.co/pPTPfGH/2.jpg",
+                "https://i.ibb.co/NxdKSty/3.jpg",
+                "https://i.ibb.co/BzKRgHJ/4.jpg",
+                "https://i.ibb.co/cgfrxtT/5.jpg"
+            ]
         },
         {
             "id": 32,
@@ -726,16 +1416,32 @@
             "marca": "Razer",
             "modelo": "RZ01-03050100-R3U1",
             "Expecificações": {
-                "SemFio" : true,
+                "SemFio": true,
                 "DPI": "20000",
                 "sensor": "Sensor óptico Focus+",
                 "modoUso": "Com fio e sem fio"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/w4PBz3q/1.jpg",
+                "https://i.ibb.co/5k7CH85/2.jpg",
+                "https://i.ibb.co/n69bhLx/3.jpg",
+                "https://i.ibb.co/Zxr1GkG/4.jpg",
+                "https://i.ibb.co/q514c4D/5.jpg"
+            ]
         },
         {
             "id": 33,
@@ -744,16 +1450,32 @@
             "marca": "Logitech",
             "modelo": "910-005290",
             "Expecificações": {
-                "SemFio" : true,
+                "SemFio": true,
                 "DPI": "12000",
                 "sensor": null,
                 "modoUso": "Sem fio LIGHTSPEED Wireles"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/fCfrwpt/1.jpg",
+                "https://i.ibb.co/dM5M37c/2.jpg",
+                "https://i.ibb.co/Sw6NdXv/3.jpg",
+                "https://i.ibb.co/bWwkQpG/4.jpg",
+                "https://i.ibb.co/Jm56gb3/5.jpg"
+            ]
         },
         {
             "id": 34,
@@ -762,16 +1484,32 @@
             "marca": "Logitech G",
             "modelo": "910-005671",
             "Expecificações": {
-                "SemFio" : true,
+                "SemFio": true,
                 "DPI": "16000",
                 "sensor": "Sensor Hero 25K",
                 "modoUso": "Receptor sem fio LIGHTSPEED"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/98v86DX/1.jpg",
+                "https://i.ibb.co/nrvcn4N/2.jpg",
+                "https://i.ibb.co/6rJMxBx/3.jpg",
+                "https://i.ibb.co/8j4XjWS/4.jpg",
+                "https://i.ibb.co/F0WQZ1g/5.jpg"
+            ]
         },
         {
             "id": 35,
@@ -785,11 +1523,25 @@
                 "velocidade": "1500 Rpm",
                 "Conectores": "3 pin ou Molex"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    75
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/RT6m6vV/1.jpg",
+                "https://i.ibb.co/CthksvT/2.jpg",
+                "https://i.ibb.co/8DbvvSY/3.jpg"
+            ]
         },
         {
             "id": 36,
@@ -803,11 +1555,25 @@
                 "velocidade": "1500 Rpm",
                 "Conectores": "Molex"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    75
+                ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/Z8P8LLg/1.jpg",
+                "https://i.ibb.co/Q8nVZW9/2.jpg",
+                "https://i.ibb.co/s5MwtDQ/3.jpg"
+            ]
         },
         {
             "id": 37,
@@ -821,11 +1587,25 @@
                 "velocidade": "800 ~ 1900 Rpm",
                 "Conectores": null
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens": [
+                "https://ibb.co/yg31Q85",
+                "https://ibb.co/0t3L727",
+                "https://ibb.co/59wR6ks"
+            ]
         },
         {
             "id": 38,
@@ -839,11 +1619,25 @@
                 "velocidade": "1500 RPM",
                 "Conectores": "Molex"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    75
+                ],
+                [
+                    "Técnico",
+                    80
+                ],
+                [
+                    "Custo benefício",
+                    70
+                ]
+            ],
+            "imagens": [
+                "https://ibb.co/QJ49tPf",
+                "https://ibb.co/L6RXF2W",
+                "https://ibb.co/18gKtMw"
+            ]
         },
         {
             "id": 39,
@@ -857,11 +1651,26 @@
                 "velocidade": "1650 RPM",
                 "Conectores": "padrão 3p 5v"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    75
+                ]
+            ],
+            "imagens": [
+                "https://ibb.co/pvDmkPs",
+                "https://ibb.co/7YWrCbP",
+                "https://ibb.co/C1SwTDW",
+                "https://ibb.co/CnNYPBK"
+            ]
         },
         {
             "id": 40,
@@ -871,19 +1680,60 @@
             "modelo": "FO48U",
             "Especificações": {
                 "polegadas": "47,53 OLED",
-                "resolução": "4K",
+                "resolucao": "4K",
                 "taxaDeAtualização": "120htz"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    85
+                ],
+                [
+                    "Custo benefício",
+                    75
+                ]
+            ],
+            "imagens": [
+                "https://ibb.co/pvDmkPs",
+                "https://ibb.co/7YWrCbP",
+                "https://ibb.co/C1SwTDW",
+                "https://ibb.co/CnNYPBK"
+            ]
         },
         {
             "id": 41,
             "tipo": "monitor",
-            "nome": "Monitor Gamer Aorus 48 OLED",
+            "nome": "Monitor LG 23.8' IPS",
+            "Marca": "LG",
+            "modelo": "24MK430H",
+            "Especificações": {
+                "polegadas": "23.8 IPS",
+                "resolucao": "1920 x 1080",
+                "taxaDeAtualização": "120htz"
+            },
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
+        },
+        {
+            "id": 41,
+            "tipo": "monitor",
+            "nome": "Monitor LG 23.8' IPS",
             "Marca": "Aorus",
             "modelo": "FO48U",
             "Especificações": {
@@ -891,11 +1741,20 @@
                 "resolução": "4K",
                 "taxaDeAtualização": "120htz"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 42,
@@ -908,11 +1767,20 @@
                 "tecnologia": "CHERRY MX RGB Red",
                 "Contrução": "Alumínio anodizado e escovado preto"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 43,
@@ -925,11 +1793,20 @@
                 "tecnologia": "HyperX NGENUITY",
                 "Contrução": "Alumínio"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 44,
@@ -942,11 +1819,20 @@
                 "tecnologia": null,
                 "Construção": "Plástisco"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 45,
@@ -959,11 +1845,20 @@
                 "tecnologia": "5.1 e 7.1",
                 "Contrução": "Plástisco"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 46,
@@ -976,11 +1871,20 @@
                 "tecnologia": "5.1 e 7.1",
                 "NívelDePressão": "150 dB"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 47,
@@ -993,11 +1897,20 @@
                 "tecnologia": null,
                 "NívelDePressão": "<80 mAX"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 48,
@@ -1010,11 +1923,20 @@
                 "tecnologia": null,
                 "NívelDePressão": "100mW"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 49,
@@ -1042,11 +1964,20 @@
                     "AMD": "300, 400, 500, X570, X470, X370, A320, E320"
                 }
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 50,
@@ -1072,11 +2003,20 @@
                     "AMD": "600 series"
                 }
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 51,
@@ -1110,11 +2050,20 @@
                     "AMD": "300, 400, 500, X570, X470, X370, A320, E320"
                 }
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 51,
@@ -1131,11 +2080,20 @@
                 },
                 "Inteface": "SATA III"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 53,
@@ -1152,11 +2110,20 @@
                 },
                 "Inteface": "SATA III 6.0 Gb/s"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 54,
@@ -1172,11 +2139,20 @@
                 },
                 "Inteface": null
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 55,
@@ -1193,11 +2169,20 @@
                 },
                 "Inteface": "SATA Rev. 3.0 (6Gb/s)"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         },
         {
             "id": 56,
@@ -1213,14 +2198,22 @@
                 },
                 "Inteface": "SATA III 6Gb / s"
             },
-            "info" : [
-                ["Geral", 47],
-                ["Memoria", 6],
-                ["Portas", 41] 
-            ] 
+            "info": [
+                [
+                    "Geral",
+                    47
+                ],
+                [
+                    "Memoria",
+                    6
+                ],
+                [
+                    "Portas",
+                    41
+                ]
+            ]
         }
     ],
-    
     "Enumeradores": {
         "TipoProduto": [
             {
