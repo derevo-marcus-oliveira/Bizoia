@@ -2,6 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, redirect, RouterProvider, useFetcher } from "react-router-dom";
+import axios from 'axios';
 
 // Rotas
 import Root from './Routers/Root';
@@ -18,16 +19,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     loader: async ({ params }) => {
-
+      debugger
       var dados = "";
 
-      await $.ajax({
-        url: "http://localhost:3000/Enumeradores",
-        method: "GET",
-        success: (response) => {
-          dados = response;
-        }
+      await axios.get("http://localhost:4003/BuscarEnum")
+      .then((response) => {
+        dados = response;
       });
+
       return dados;
     },
 
@@ -46,17 +45,19 @@ const router = createBrowserRouter([
         element: <Itens />,
         errorElement: <h1>ERRO</h1>,
         loader: async ({ params }) => {
-          await $.ajax({
-            url: "http://localhost:3000/Itens",
-            method: "GET",
-            success: (response) => {
+          debugger
+          await axios.get("http://localhost:4003/Buscar")
+            
+            .then((response) => {
+              debugger
+
 
               params.Dados = [];
-              if (response.filter((p) => p.tipo == params.type).length != 0) {
-                params.Dados = response.filter((p) => p.tipo == params.type);
+              if (response.data.filter((p) => p.tipo == params.type).length != 0) {
+                params.Dados = response.data.filter((p) => p.tipo == params.type);
               }
               else {
-                response.map((p) => {
+                response.data.map((p) => {
                   var re = new RegExp(params.type, 'i')
                   if (p.tipo.search(re) != -1) {
                     params.Dados.push(p);
@@ -75,8 +76,11 @@ const router = createBrowserRouter([
                   }
                 })
               }
-            }
-          });
+            })          
+            .catch((error) => {
+              debugger
+              console.log("Erro", error)
+            })
 
 
 
@@ -89,37 +93,28 @@ const router = createBrowserRouter([
 
         errorElement: <h1>ERRO</h1>,
         loader: async ( {params} ) => {
+      
           debugger 
           
           params.Dados = [];
-          await $.ajax({
-            url: "http://localhost:3000/Itens",
-            method: "GET",
-            success: (response) => {
-
-              response.map((p) => {
-                var re = new RegExp(params.id, 'i')
-                if (p.tipo.search(re) != -1) {
-                  params.Dados = p;
-                }
-                else if (p.nome != null && p.nome.search(re) != -1) {
-                  params.Dados = p;
-                }
-                else if (p.marca != null && p.marca.search(re) != -1) {
-                  params.Dados = p;
-                }
-                else if (p.modelo != null && p.modelo.search(re) != -1) {
-                  params.Dados = p;
-                }
-                else if (params.Dados.length <= 0) {
-                  params.Dados = {}
-                }
-              })
-
-            }
-          });
+          await axios.get("http://localhost:4003/Buscar")
+        
+          .then((response) => {
+            debugger
+            response.data.map((p) => {
+              if (p.id == params.id) {
+                params.Dados = p;
+              }              
+            })
+          })
+          .catch((error) => {
+            debugger
+            console.log("Erro", error)
+          })
           return params;
         }
+        
+        
       }
     ]
   },

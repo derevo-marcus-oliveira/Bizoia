@@ -19,7 +19,11 @@ function Detalhe() {
                         </div>
                         <div className="view-G col-4">
                             {/* <i className="bi bi-alarm"></i> */}
-                            <div className="qualquer"></div>
+                            <div className="">
+                            <h4 style={{margin: 12}}>{dados.nome}</h4>
+                            <h6 style={{marginLeft: 12}}>Marca: {dados.marca}</h6>
+                            <h6 style={{marginLeft: 12}}>Modelo: {dados.modelo}</h6>
+                            </div>
                         </div>
                     </div>
                     <h1 class="display-3">Especificações</h1>

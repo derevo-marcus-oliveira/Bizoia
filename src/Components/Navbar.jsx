@@ -3,7 +3,7 @@ import { Form, Link, redirect, useLoaderData } from "react-router-dom";
 function Navbar() {
     
     const e = useLoaderData();
-
+debugger
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark " data-bs-theme="dark">
@@ -19,7 +19,7 @@ function Navbar() {
                                     Categoria
                                 </a>
                                 <ul className="dropdown-menu">
-                                    {e.TipoProduto.map((p) => (
+                                    {e.data.map((p) => (
                                         <li key={p.id}>
                                             <Link className="dropdown-item" to={"categoria/" + p["type"]}>{p.name}</Link>
                                         </li>

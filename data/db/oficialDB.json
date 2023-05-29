@@ -44,17 +44,17 @@
             "nome": "Asus Prime H510M-A",
             "marca": "Asus",
             "modelo": "PRIME H510M-A",
-            "Expecificacoes": [
+            "detalhes": [
                 {
-                    "nome": "CPU",
-                    "info": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta"
+                    "caracteristica": "CPU",
+                    "descricao": " Intel Socket LGA1200 para processadores Intel Core de 11ª geração e processadores Intel Core, Pentium Gold e Celeron de 10ª geração Suporta"
                 },
                 {
-                    "nome": "Chipset",
-                    "info": "H510"
+                    "caracteristica": "Chipset",
+                    "descricao": "H510"
                 }
             ],
-            "info": [
+            "opniao": [
                 [
                     "Geral",
                     70
@@ -1686,22 +1686,25 @@
             "info": [
                 [
                     "Geral",
-                    80
+                    90
                 ],
                 [
                     "Técnico",
-                    85
+                    95
                 ],
                 [
                     "Custo benefício",
-                    75
+                    90
                 ]
             ],
             "imagens": [
-                "https://ibb.co/pvDmkPs",
-                "https://ibb.co/7YWrCbP",
-                "https://ibb.co/C1SwTDW",
-                "https://ibb.co/CnNYPBK"
+                "https://i.ibb.co/fYnv26P/1.png",
+                "https://i.ibb.co/NLhvmdP/2.png",
+                "https://i.ibb.co/2FrhwRh/3.png",
+                "https://i.ibb.co/rFJ6Hq3/4.png",
+                "https://i.ibb.co/qMzrhC4/5.png",
+                "https://i.ibb.co/gwqgVpB/6.jpg",
+                "https://i.ibb.co/hXzBRbT/7.png"
             ]
         },
         {
@@ -1718,42 +1721,124 @@
             "info": [
                 [
                     "Geral",
-                    47
+                    85
                 ],
                 [
-                    "Memoria",
-                    6
+                    "Técnico",
+                    90
                 ],
                 [
-                    "Portas",
-                    41
+                    "Custo benefício",
+                    80
                 ]
+            ],
+            "imagens": [
+                "https://i.ibb.co/DKXRtQH/1.jpg",
+                "https://i.ibb.co/T2vNt9m/2.webp",
+                "https://i.ibb.co/V2Sf5y8/3.webp",
+                "https://i.ibb.co/swhCHKD/4.webp",
+                "https://i.ibb.co/hYnNW6T/5.webp"
             ]
         },
         {
-            "id": 41,
+            "id": 57,
             "tipo": "monitor",
-            "nome": "Monitor LG 23.8' IPS",
-            "Marca": "Aorus",
-            "modelo": "FO48U",
+            "nome": "Monitor Portátil Asus LED 15.6 Touch",
+            "Marca": "Asus",
+            "modelo": "MB16AMT",
             "Especificações": {
-                "polegadas": "47,53 OLED",
-                "resolução": "4K",
-                "taxaDeAtualização": "120htz"
+                "polegadas": "15.6 IPS",
+                "resolução": "1920x1080",
+                "taxaDeAtualização": null
             },
             "info": [
                 [
                     "Geral",
-                    47
+                    85
                 ],
                 [
-                    "Memoria",
-                    6
+                    "Técnico",
+                    90
                 ],
                 [
-                    "Portas",
-                    41
+                    "Custo benefício",
+                    80
                 ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/Fmjk0X6/1.png",
+                "https://i.ibb.co/qRV7c1b/2.png",
+                "https://i.ibb.co/Dz6WZJk/3.png",
+                "https://i.ibb.co/cDhY1FF/4.png",
+                "https://i.ibb.co/KhDMvrn/5.png"
+            ]
+        },
+        {
+            "id": 58,
+            "tipo": "monitor",
+            "nome": "Monitor Gamer ASRock 34 LED QHD Curvo",
+            "Marca": "Asus",
+            "modelo": "MB16AMT",
+            "Especificações": {
+                "polegadas": "15.6 IPS",
+                "resolução": "1920x1080",
+                "taxaDeAtualização": null
+            },
+            "info": [
+                [
+                    "Geral",
+                    90
+                ],
+                [
+                    "Técnico",
+                    95
+                ],
+                [
+                    "Custo benefício",
+                    90
+                ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/wh4NY1z/1.png",
+                "https://i.ibb.co/tM3G75M/2.png",
+                "https://i.ibb.co/MkdYBDW/3.png",
+                "https://i.ibb.co/1mPNs0P/4.png",
+                "https://i.ibb.co/tKZ7Wzx/5.png",
+                "https://i.ibb.co/ZKLvs2R/6.png"
+            ]
+        },
+        {
+            "id": 58,
+            "tipo": "monitor",
+            "nome": "Monitor Samsung 24 LED Curvo Full HD",
+            "Marca": "Samsung",
+            "modelo": "LC24F390FHLMZD ",
+            "Especificações": {
+                "polegadas": "24 LED",
+                "resolução": "1920x1080",
+                "taxaDeAtualização": null
+            },
+            "info": [
+                [
+                    "Geral",
+                    85
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/wh4NY1z/1.png",
+                "https://i.ibb.co/tM3G75M/2.png",
+                "https://i.ibb.co/MkdYBDW/3.png",
+                "https://i.ibb.co/1mPNs0P/4.png",
+                "https://i.ibb.co/tKZ7Wzx/5.png",
+                "https://i.ibb.co/ZKLvs2R/6.png"
             ]
         },
         {
@@ -1770,16 +1855,23 @@
             "info": [
                 [
                     "Geral",
-                    47
+                    80
                 ],
                 [
-                    "Memoria",
-                    6
+                    "Técnico",
+                    90
                 ],
                 [
-                    "Portas",
-                    41
+                    "Custo benefício",
+                    75
                 ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/XFS1C2w/1.jpg",
+                "https://i.ibb.co/NxWdhmf/2.jpg",
+                "https://i.ibb.co/m9Fzk8Z/3.jpg",
+                "https://i.ibb.co/YPKkk2s/4.jpg",
+                "https://i.ibb.co/98L68d1/5.jpg"
             ]
         },
         {
@@ -1796,42 +1888,120 @@
             "info": [
                 [
                     "Geral",
-                    47
+                    75
                 ],
                 [
-                    "Memoria",
-                    6
+                    "Técnico",
+                    80
                 ],
                 [
-                    "Portas",
-                    41
+                    "Custo benefício",
+                    85
                 ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/Y018Tpm/1.jpg",
+                "https://i.ibb.co/bWyDfVd/2.jpg",
+                "https://i.ibb.co/84gbsBB/3.jpg",
+                "https://i.ibb.co/4gfwfWv/4.jpg",
+                "https://i.ibb.co/bP4dQrt/5.jpg"
             ]
         },
         {
             "id": 44,
             "tipo": "teclado",
-            "nome": "Multilaser",
-            "marca": "HyperX",
+            "nome": "Teclado Gamer Multi Hotkeys Slim",
+            "marca": "Multilaser",
             "modelo": "TC243",
             "Especificações": {
-                "tipo": "Mecânico'",
+                "tipo": "Gamer",
                 "tecnologia": null,
-                "Construção": "Plástisco"
+                "Construção": "ABS"
             },
             "info": [
                 [
                     "Geral",
-                    47
+                    65
                 ],
                 [
-                    "Memoria",
-                    6
+                    "Técnico",
+                    70
                 ],
                 [
-                    "Portas",
-                    41
+                    "Custo benefício",
+                    75
                 ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/Y018Tpm/1.jpg",
+                "https://i.ibb.co/bWyDfVd/2.jpg",
+                "https://i.ibb.co/84gbsBB/3.jpg",
+                "https://i.ibb.co/4gfwfWv/4.jpg",
+                "https://i.ibb.co/bP4dQrt/5.jpg"
+            ]
+        },
+        {
+            "id": 59,
+            "tipo": "teclado",
+            "nome": "Teclado Mecânico Gamer T-Dagger Bora",
+            "marca": "T-Dagger",
+            "modelo": "T-TGK315-BLUE",
+            "Especificações": {
+                "tipo": "Mecânico",
+                "tecnologia": "Outemu MK.2 DIY Blue",
+                "Construção": " Metal e Plástico ABS"
+            },
+            "info": [
+                [
+                    "Geral",
+                    70
+                ],
+                [
+                    "Técnico",
+                    75
+                ],
+                [
+                    "Custo benefício",
+                    80
+                ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/DG5ntYy/1.jpg",
+                "https://i.ibb.co/gWy1ZwB/2.jpg",
+                "https://i.ibb.co/1X9vmVT/3.jpg",
+                "https://i.ibb.co/mJgNSvh/4.jpg"
+            ]
+        },{
+            "id": 60,
+            "tipo": "teclado",
+            "nome": "Teclado Razer, Blackwidow V3 Pro",
+            "marca": "Razer",
+            "modelo": "Blackwidow V3",
+            "Especificações": {
+                "tipo": "Mecânico",
+                "tecnologia": "HyperSpeed Wireless",
+                "Construção": "alumínio"
+            },
+            "info": [
+                [
+                    "Geral",
+                    80
+                ],
+                [
+                    "Técnico",
+                    90
+                ],
+                [
+                    "Custo benefício",
+                    85
+                ]
+            ],
+            "imagens":[
+                "https://i.ibb.co/mFnk8MW/1.jpg",
+                "https://i.ibb.co/FJPpRmx/2.jpg",
+                "https://i.ibb.co/DVFwHj8/3.jpg",
+                "https://i.ibb.co/ssWTsfk/4.jpg",
+                "https://i.ibb.co/W6qSQ8k/5.jpg"
             ]
         },
         {
@@ -2068,17 +2238,13 @@
         {
             "id": 51,
             "tipo": "ssd",
-            "nome": "L3 EVO SSD (EOL)",
-            "marca": "EOL - End of Life",
-            "modelo": "L3 EVO",
+            "nome": "SSD Samsung 970 EVO Plus",
+            "marca": "Samsung",
+            "modelo": "970 EVO Plus",
             "Especificacoes": {
-                "Capacidade/Escritra": {
-                    "120GB": "30TB",
-                    "240GB": "60TB",
-                    "480GB": "120TB",
-                    "960GB": "120TB"
-                },
-                "Inteface": "SATA III"
+                "Capacidade": "2TB",
+                "Leitura" : "3.500 MB/s",
+                "Inteface": "PCIe Gen 3.0 x4, NVMe 1.3"
             },
             "info": [
                 [

@@ -2,6 +2,13 @@ import { Form } from "react-router-dom";
 import Carousel from "../Components/Carousel";
 
 function Home() {
+    
+var img = [
+    "https://i.ibb.co/bH3D3c7/5.png",
+    "https://i.ibb.co/W0n0gXT/4.png",
+    "https://i.ibb.co/FJBHxby/3.png"
+]
+
     return (
         <div className="container">
             
@@ -12,7 +19,7 @@ function Home() {
             </div>
             <div className="row">
                 <div className="view-G col-8">
-                    <Carousel id={"view1"}/>  
+                    <Carousel id={"view1"} img={img}/>  
                 </div>  
                 <div className="view-G col-4">
                     {/* <i className="bi bi-alarm"></i> */}
@@ -36,7 +43,7 @@ function Home() {
                     <div className="row ">
                         <div className="view-M col-6">
                             {/* <i className="bi bi-alarm"></i> */}
-                            <Carousel id={"view2"}/>  
+                            <Carousel id={"view2"} img={img}/>  
                         </div>
                         <div className="view-M col-6">
                             {/* <i className="bi bi-alarm"></i> */}
@@ -113,7 +120,7 @@ function Home() {
                     <div className="row">
                         <div className="view-P col-6 ">
                             {/* <i className="bi bi-airplane"></i> */}
-                            <Carousel id={"view3"}/>               
+                            <Carousel id={"view3"} img={img}/>               
                         </div>
                         <div className="view-P col-6 ">
                             {/* <i className="bi bi-airplane"></i> */}
