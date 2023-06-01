@@ -1,9 +1,21 @@
 import Filter from "./Filter";
 import Buttons from "./Buttons";
-
+import { redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Offcanvas({ type, dados }) {
 
+    useEffect(() => {
+        $(".offcanvas-body input").on("click", (item) => {
+            
+            if (item.target.checked == true) {
+                
+                arr.push(item.target.id)
+            }
+        })    
+    })
+    
     return (
         <div className="offcanvas offcanvas-end text-bg-dark" data-bs-backdrop="static" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" >
             <div className="offcanvas-header">
@@ -11,12 +23,12 @@ function Offcanvas({ type, dados }) {
                 <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body">
-                <Filter type={type} dados={dados} />
+                <Filter dados={dados} />
                 <br></br>
                 <div >
-                    <Buttons.Primary interation='offcanvas' methods={() => { }}>
+                    <Link to={"/categoria/" + arr.join()}>
                         Adicionar
-                    </Buttons.Primary>
+                    </Link>
                 </div>
             </div>
         </div>

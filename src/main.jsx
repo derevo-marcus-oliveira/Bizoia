@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     loader: async ({ params }) => {
-      debugger
+      
       var dados = "";
 
       await axios.get("http://localhost:4003/BuscarEnum")
@@ -45,40 +45,51 @@ const router = createBrowserRouter([
         element: <Itens />,
         errorElement: <h1>ERRO</h1>,
         loader: async ({ params }) => {
-          debugger
-          await axios.get("http://localhost:4003/Buscar")
+          
+
+          var novoParams = params.type.search(",") > -1 ? params.type.split(",") : params.type
+
+          await axios.get("http://localhost:4003/Buscar", )
             
             .then((response) => {
               debugger
-
-
               params.Dados = [];
-              if (response.data.filter((p) => p.tipo == params.type).length != 0) {
-                params.Dados = response.data.filter((p) => p.tipo == params.type);
+              if(Array.isArray(novoParams)){
+                
+                novoParams.forEach(element => {
+                  debugger
+                  params.Dados.push( response.data.filter((p) => p.marca == element))
+               }); 
               }
-              else {
-                response.data.map((p) => {
-                  var re = new RegExp(params.type, 'i')
-                  if (p.tipo.search(re) != -1) {
-                    params.Dados.push(p);
-                  }
-                  else if (p.nome != null && p.nome.search(re) != -1) {
-                    params.Dados.push(p);
-                  }
-                  else if (p.marca != null && p.marca.search(re) != -1) {
-                    data.push(p);
-                  }
-                  else if (p.modelo != null && p.modelo.search(re) != -1) {
-                    data.push(p);
-                  }
-                  else if (params.Dados.length <= 0) {
-                    params.Dados = []
-                  }
-                })
+              else{
+                if (response.data.filter((p) => p.tipo == params.type).length != 0) {
+                  params.Dados = response.data.filter((p) => p.tipo == params.type);
+                }
+                else {
+                  response.data.map((p) => {
+                    var re = new RegExp(params.type, 'i')
+                    if (p.tipo.search(re) != -1) {
+                      params.Dados.push(p);
+                    }
+                    else if (p.nome != null && p.nome.search(re) != -1) {
+                      params.Dados.push(p);
+                    }
+                    else if (p.marca != null && p.marca.search(re) != -1) {
+                      data.push(p);
+                    }
+                    else if (p.modelo != null && p.modelo.search(re) != -1) {
+                      data.push(p);
+                    }
+                    else if (params.Dados.length <= 0) {
+                      params.Dados = []
+                    }
+                  })
+                }
               }
+              
             })          
             .catch((error) => {
-              debugger
+              
               console.log("Erro", error)
             })
 
@@ -94,13 +105,13 @@ const router = createBrowserRouter([
         errorElement: <h1>ERRO</h1>,
         loader: async ( {params} ) => {
       
-          debugger 
+           
           
           params.Dados = [];
           await axios.get("http://localhost:4003/Buscar")
         
           .then((response) => {
-            debugger
+            
             response.data.map((p) => {
               if (p.id == params.id) {
                 params.Dados = p;
@@ -108,7 +119,7 @@ const router = createBrowserRouter([
             })
           })
           .catch((error) => {
-            debugger
+            
             console.log("Erro", error)
           })
           return params;

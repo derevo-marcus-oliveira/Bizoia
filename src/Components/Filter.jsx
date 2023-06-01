@@ -1,30 +1,25 @@
 
-function Filter({type, dados}){
-
-    var re = new RegExp(type, 'i');
-    document.querySelectorAll(".form-check-input").forEach((p) => { p.checked = false })
+function Filter({ dados }) {
+    
     var brand = []
 
     dados.map((item) => {
-        brand.push(item.brand);
-    })
+        if (brand.filter(d => d == item.marca).length == 0) {
 
+            brand.push(item.marca);
+        }
+    })
 
     return (
         <>
-            {"placa-mae".search(re) != -1 ? (
-                <>
-                    <h4>Marcas</h4>
-                    <div className="form-check form-switch">
-                        <input className="form-check-input" type="checkbox" role="switch" id="Afox" />
-                        <label className="form-check-label" htmlFor="Afox">Afox</label>
-                    </div>
-                    
-                </>
-            ) : (
-                <>
-                </>
-            )}        
+            <h4>Marcas</h4>
+            {brand.map((item, id) => (
+                <div className="form-check form-switch" key={id}>
+                    <input className="form-check-input" type="checkbox" role="switch" id={item} />
+                    <label className="form-check-label" htmlFor={item}>{item}</label>
+                </div>
+            ))}
+
         </>
     )
 }
