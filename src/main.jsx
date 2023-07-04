@@ -45,22 +45,22 @@ const router = createBrowserRouter([
         element: <Itens />,
         errorElement: <h1>ERRO</h1>,
         loader: async ({ params }) => {
-          
+          debugger
 
-          var novoParams = params.type.search(",") > -1 ? params.type.split(",") : params.type
+          var novoParams = JSON.parse(params.type.filter);
 
           await axios.get("http://localhost:4003/Buscar", )
             
             .then((response) => {
-              debugger
+              
               params.Dados = [];
               if(Array.isArray(novoParams)){
                 
                 novoParams.forEach(element => {
-                  debugger
+                  
                   params.Dados.push( response.data.filter((p) => p.marca == element))
                }); 
-              }
+              }              
               else{
                 if (response.data.filter((p) => p.tipo == params.type).length != 0) {
                   params.Dados = response.data.filter((p) => p.tipo == params.type);

@@ -6,13 +6,27 @@ import { useEffect, useState } from "react";
 
 function Offcanvas({ type, dados }) {
 
+    const [filter, setFilter] = useState([])
+
     useEffect(() => {
         $(".offcanvas-body input").on("click", (item) => {
             
-            if (item.target.checked == true) {
+            if(filter.length == 0) {
+                if (item.target.checked == true) {
                 
-                arr.push(item.target.id)
+                    setFilter([...filter, item.target.id])
+                }
             }
+            else{
+                
+                if(filter.filter(filter => filter == item.target.id).length == 0){
+                    if (item.target.checked == true) {
+                
+                        setFilter([...filter, item.target.id])
+                    }
+                }
+            }
+            
         })    
     })
     
@@ -26,7 +40,8 @@ function Offcanvas({ type, dados }) {
                 <Filter dados={dados} />
                 <br></br>
                 <div >
-                    <Link to={"/categoria/" + arr.join()}>
+                    <Link to={`/categoria/${JSON.stringify({"filter": filter})}`} onClick={() => console.log("/categoria/" + filter.toString())}>
+                        
                         Adicionar
                     </Link>
                 </div>

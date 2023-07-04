@@ -5,6 +5,7 @@ import Card from '../Components/Card';
 import Offcanvas from '../Components/Offcanvas';
 
 function Itens() {
+    
     const arr = useLoaderData();
     
     return (
@@ -15,7 +16,7 @@ function Itens() {
                     {/* Posso Escrever algo */}
                 </div>
                 <div className="p-3 col-10 ">
-                    <h5>Pesquisa: <span>{path}</span></h5>
+                    <h5>Pesquisa: <span>{arr.type}</span></h5>
                 </div>
 
                 <div className="p-2 col-2">
